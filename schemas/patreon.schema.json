@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "description": "Current schema version.",
+      "type": "number"
+    },
+    "billingDisclaimers": {
+      "description": "Disclaimers to list after Patreon tiers.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "earlyAccess": {
+      "description": "Whether or not any mods are currently in early access.",
+      "type": "boolean"
+    },
+    "tiers": {
+      "description": "List of information about available Patreon tiers.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of tier.",
+            "type": "string"
+          },
+          "price": {
+            "description": "Price per month in USD (should be prefixed with $).",
+            "type": "string"
+          },
+          "benefits": {
+            "description": "List of benefits for this tier.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

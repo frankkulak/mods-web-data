@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "description": "Current schema version.",
+      "type": "number"
+    },
+    "tools": {
+      "description": "List of information about available tools.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pinned": {
+            "description": "Whether or not this tool should be pinned to start of list.",
+            "type": "boolean"
+          },
+          "title": {
+            "description": "Name of tool.",
+            "type": "string"
+          },
+          "text": {
+            "description": "Brief description of tool.",
+            "type": "string"
+          },
+          "links": {
+            "description": "List of links to display for tool.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "description": "Text to display on link.",
+                  "type": "string"
+                },
+                "href": {
+                  "description": "HREF to use for link.",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

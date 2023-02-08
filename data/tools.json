@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/tools.schema.json",
   "version": 1,
   "tools": [
     {
