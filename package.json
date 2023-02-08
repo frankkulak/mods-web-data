@@ -2,6 +2,9 @@
   "name": "mods-web-data",
   "version": "1.0.0",
   "author": "frankkulak",
+  "scripts": {
+    "minify": "node scripts/minify-data.cjs"
+  },
   "dependencies": {
     "glob": "^8.1.0"
   }

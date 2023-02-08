@@ -1,0 +1,69 @@
+{
+  "$schema": "../schemas/tutorials.schema.json",
+  "version": 1,
+  "tutorials": [
+    {
+      "title": "Auto-Assign Traits to All Sims",
+      "description": "How to assign traits to sims the moment they spawn into the world.",
+      "href": "https://frankkmods.medium.com/automatically-assign-traits-to-sims-sims-4-script-modding-60f8eeb2a08c",
+      "platform": "Medium",
+      "tags": [
+        "scripting"
+      ]
+    },
+    {
+      "title": "Custom Tuning Tests",
+      "description": "How to make your own custom tests and test sets.",
+      "href": "https://frankkmods.medium.com/custom-tuning-tests-sims-4-script-modding-3837e214fb68",
+      "platform": "Medium",
+      "tags": [
+        "scripting"
+      ]
+    },
+    {
+      "title": "Inject by Super Affordance",
+      "description": "How to add custom interactions to all objects with another interaction.",
+      "href": "https://sims4studio.com/thread/22556/inject-interactions-super-affordance",
+      "platform": "Sims 4 Studio",
+      "tags": [
+        "scripting"
+      ]
+    },
+    {
+      "title": "Integrate Your Mod with Language Barriers",
+      "description": "Configure your mod to be compatible with Language Barriers.",
+      "href": "https://frankkmods.medium.com/how-to-integrate-your-mod-with-language-barriers-a1680c7bceab",
+      "platform": "Medium",
+      "tags": [
+        "tuning"
+      ]
+    },
+    {
+      "title": "Beginner's Guide to S4TK",
+      "description": "The fundamentals of JavaScript, Node, and Sims 4 Toolkit.",
+      "href": "https://frankkmods.medium.com/beginners-guide-to-sims-4-toolkit-5307132f02c0",
+      "platform": "Medium",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Build Packages With S4TK",
+      "description": "How to create and bundle packages with Sims 4 Toolkit.",
+      "href": "https://frankkmods.medium.com/build-packages-with-sims-4-toolkit-74a795f188c1",
+      "platform": "Medium",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "title": "Interactive Tutorials",
+      "description": "Learn how to use S4TK with the online sandbox.",
+      "href": "https://sandbox.sims4toolkit.com/#/tutorials",
+      "platform": "S4TK Sandbox",
+      "tags": [
+        "tools"
+      ]
+    }
+  ]
+}

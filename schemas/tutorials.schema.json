@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "description": "Current schema version.",
+      "type": "number"
+    },
+    "tutorials": {
+      "description": "List of tutorial data.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "description": "Name of this tutorial.",
+            "type": "string"
+          },
+          "description": {
+            "description": "Brief description of this tutorial.",
+            "type": "string"
+          },
+          "platform": {
+            "description": "Where this tutorial is hosted.",
+            "type": "string"
+          },
+          "href": {
+            "description": "Link to this tutorial.",
+            "type": "string"
+          },
+          "tags": {
+            "description": "List of tags for this tutorial",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "tuning",
+                "scripting",
+                "tools"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
