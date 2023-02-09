@@ -4,6 +4,7 @@
   "categories": [
     {
       "title": "Sims 4 Toolkit",
+      "text": "Mod more efficiently",
       "tutorials": [
         {
           "title": "Beginner's Guide to S4TK",
@@ -27,6 +28,7 @@
     },
     {
       "title": "General Modding",
+      "text": "Write fancy scripts",
       "tutorials": [
         {
           "title": "Auto-Assign Traits to Sims",
@@ -50,6 +52,7 @@
     },
     {
       "title": "Mod Integration",
+      "text": "Integrate your mods with mine",
       "tutorials": [
         {
           "title": "Integrate Your Mod with LB",

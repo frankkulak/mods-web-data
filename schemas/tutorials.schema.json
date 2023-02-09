@@ -15,6 +15,10 @@
             "description": "The header to use for this category.",
             "type": "string"
           },
+          "text": {
+            "description": "Brief description of category.",
+            "type": "string"
+          },
           "tutorials": {
             "description": "List of tutorials in this category.",
             "type": "array",
