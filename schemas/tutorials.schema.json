@@ -6,38 +6,38 @@
       "description": "Current schema version.",
       "type": "number"
     },
-    "tutorials": {
-      "description": "List of tutorial data.",
+    "categories": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
           "title": {
-            "description": "Name of this tutorial.",
+            "description": "The header to use for this category.",
             "type": "string"
           },
-          "description": {
-            "description": "Brief description of this tutorial.",
-            "type": "string"
-          },
-          "platform": {
-            "description": "Where this tutorial is hosted.",
-            "type": "string"
-          },
-          "href": {
-            "description": "Link to this tutorial.",
-            "type": "string"
-          },
-          "tags": {
-            "description": "List of tags for this tutorial",
+          "tutorials": {
+            "description": "List of tutorials in this category.",
             "type": "array",
             "items": {
-              "type": "string",
-              "enum": [
-                "tuning",
-                "scripting",
-                "tools"
-              ]
+              "type": "object",
+              "properties": {
+                "title": {
+                  "description": "Name of this tutorial.",
+                  "type": "string"
+                },
+                "text": {
+                  "description": "Brief description of this tutorial.",
+                  "type": "string"
+                },
+                "platform": {
+                  "description": "Where this tutorial is hosted.",
+                  "type": "string"
+                },
+                "href": {
+                  "description": "Link to this tutorial.",
+                  "type": "string"
+                }
+              }
             }
           }
         }
