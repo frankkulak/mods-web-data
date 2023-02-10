@@ -1,0 +1,5 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "version": 1,
+  "translatable": false
+}

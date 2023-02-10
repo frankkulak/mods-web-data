@@ -1,6 +1,7 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "version": 1,
+  "translatable": true,
   "translations": [
     {
       "code": "ENG_US",
