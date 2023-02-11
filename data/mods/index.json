@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/mod-index.schema.json",
+  "$schema": "../../schemas/mod-index.schema.json",
   "featured": [
     "language-barriers"
   ],
