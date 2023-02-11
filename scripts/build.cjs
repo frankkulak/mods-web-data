@@ -83,7 +83,7 @@ getSubdirs(MODS_DIR).forEach((modId) => {
   });
 
   // write index
-  const dest = getDestinationPath(indexPath);
+  const dest = path.join(BUILD_DIR, `mods/${modId}.json`);
   fs.writeFileSync(dest, JSON.stringify(indexJson));
 });
 
