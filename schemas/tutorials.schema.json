@@ -1,15 +1,21 @@
 {
   "$schema": "http://json-schema.org/schema",
   "type": "object",
+  "required": [
+    "categories"
+  ],
   "properties": {
-    "version": {
-      "description": "Current schema version.",
-      "type": "number"
-    },
     "categories": {
+      "description": "List of tutorial categories (title/tutorial list pairs).",
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
+        "required": [
+          "title",
+          "text",
+          "tutorials"
+        ],
         "properties": {
           "title": {
             "description": "The header to use for this category.",
@@ -22,8 +28,15 @@
           "tutorials": {
             "description": "List of tutorials in this category.",
             "type": "array",
+            "minItems": 1,
             "items": {
               "type": "object",
+              "required": [
+                "title",
+                "text",
+                "platform",
+                "href"
+              ],
               "properties": {
                 "title": {
                   "description": "Name of this tutorial.",

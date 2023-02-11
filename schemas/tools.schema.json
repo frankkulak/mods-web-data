@@ -1,16 +1,21 @@
 {
   "$schema": "http://json-schema.org/schema",
   "type": "object",
+  "required": [
+    "tools"
+  ],
   "properties": {
-    "version": {
-      "description": "Current schema version.",
-      "type": "number"
-    },
     "tools": {
       "description": "List of information about available tools.",
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
+        "required": [
+          "title",
+          "text",
+          "links"
+        ],
         "properties": {
           "pinned": {
             "description": "Whether or not this tool should be pinned to start of list.",
@@ -27,8 +32,13 @@
           "links": {
             "description": "List of links to display for tool.",
             "type": "array",
+            "minItems": 1,
             "items": {
               "type": "object",
+              "required": [
+                "label",
+                "href"
+              ],
               "properties": {
                 "label": {
                   "description": "Text to display on link.",

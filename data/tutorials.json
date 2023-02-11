@@ -1,6 +1,5 @@
 {
   "$schema": "../schemas/tutorials.schema.json",
-  "version": 1,
   "categories": [
     {
       "title": "Sims 4 Toolkit",
