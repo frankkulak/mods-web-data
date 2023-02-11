@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Followers for Fame",
+  "description": "Can you really call yourself a 'Global Superstar' when you only have 12 followers on Simstagram? This mod automatically gives your sim followers whenever they gain fame.",
+  "version": "1.1.3",
+  "lastUpdated": "May 25, 2022",
+  "kind": "gameplay",
+  "stage": "public",
+  "status": "working",
+  "translatable": true,
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "translations": [
+    {
+      "code": "ENG_US",
+      "translators": [
+        {
+          "name": "Frankk"
+        }
+      ]
+    },
+    {
+      "code": "SPA_EA",
+      "translators": [
+        {
+          "name": "Diavlo"
+        }
+      ]
+    },
+    {
+      "code": "ITA_IT",
+      "translators": [
+        {
+          "name": "ISY",
+          "href": "https://isytranslations.wixsite.com/isystranslations"
+        }
+      ]
+    },
+    {
+      "code": "NOR_NO",
+      "translators": [
+        {
+          "name": "Susanne"
+        }
+      ]
+    },
+    {
+      "code": "POL_PL",
+      "translators": [
+        {
+          "name": "Osqar",
+          "href": "https://www.patreon.com/osqar"
+        }
+      ]
+    },
+    {
+      "code": "POR_BR",
+      "translators": [
+        {
+          "name": "Larissa Sousa"
+        }
+      ]
+    },
+    {
+      "code": "RUS_RU",
+      "translators": [
+        {
+          "name": "dep4ikk"
+        }
+      ]
+    },
+    {
+      "code": "CHT_CN",
+      "translators": [
+        {
+          "name": "Ttchubb"
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "http://www.simfileshare.net/download/1930737/"
+    }
+  ]
+}
