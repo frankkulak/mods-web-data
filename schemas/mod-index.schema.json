@@ -5,15 +5,15 @@
       "description": "Valid IDs of mods.",
       "type": "string",
       "enum": [
-        "language-barriers",
         "bad-translations",
         "buy-bits-and-pieces",
         "followers-for-fame",
+        "language-barriers",
         "online-homework",
-        "utter-chaos",
         "pack-tests",
         "show-sim-info",
-        "simway"
+        "simway",
+        "utter-chaos"
       ]
     }
   },
