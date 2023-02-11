@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Online Homework",
+  "description": "Can't find your sim's notebook? Well, now you can do their homework at any computer or laptop. This mod works for children, teens, and university students.",
+  "version": "1.1",
+  "lastUpdated": "December 21, 2020",
+  "kind": "gameplay",
+  "stage": "public",
+  "status": "working",
+  "translatable": false,
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "downloadWarning": "If you don't have Discover University, delete the 'frankk_OnlineHomework_University.package' file from the mod and it will be safe to use with the Base Game for children and teens.",
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "http://www.simfileshare.net/download/2089628/"
+    }
+  ]
+}
