@@ -97,6 +97,7 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
   delete modIndexJson.$schema;
 
   // adding display data
+  modIndexJson.allMods = [...modDataMap.keys()];
   modIndexJson.displayData = {};
   modDataMap.forEach((modData, modId) => {
     modIndexJson.displayData[modId] = {
