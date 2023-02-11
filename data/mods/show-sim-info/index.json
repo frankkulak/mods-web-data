@@ -7,7 +7,7 @@
   "kind": "utility",
   "stage": "public",
   "status": "working",
-  "translatable": false,
+  "hideTranslations": true,
   "pages": [
     {
       "title": "Details",

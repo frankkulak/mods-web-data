@@ -7,7 +7,7 @@
   "kind": "gameplay",
   "stage": "wip",
   "status": "untested",
-  "translatable": false,
+  "hideTranslations": true,
   "pages": [
     {
       "title": "Details",
