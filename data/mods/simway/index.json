@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Simway (MLM Mod)",
+  "description": "How would you like to be your own boss and set your own hours? Join Simway for just §500, then sell products and recruit other sims to make a profit! This mod adds MLMs to the game.",
+  "version": "",
+  "lastUpdated": "",
+  "kind": "gameplay",
+  "stage": "wip",
+  "status": "untested",
+  "translatable": false,
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ]
+}

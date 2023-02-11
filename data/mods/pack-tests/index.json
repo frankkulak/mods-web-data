@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Pack Tests",
+  "description": "If you ever need to test whether your users have a particular pack installed or not, this script will allow you to do so directly in tuning - no scripting abilities required!",
+  "version": "1.0.1",
+  "lastUpdated": "July 20, 2021",
+  "kind": "utility",
+  "stage": "public",
+  "status": "working",
+  "translatable": false,
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "http://www.simfileshare.net/download/2251515/"
+    }
+  ]
+}

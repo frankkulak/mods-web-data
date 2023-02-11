@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Show Sim Info",
+  "description": "View all of the internal data for particular sims with an interaction. Originally by Itasan.",
+  "version": "3.8.3",
+  "lastUpdated": "August 7, 2022",
+  "kind": "utility",
+  "stage": "public",
+  "status": "working",
+  "translatable": false,
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "http://simfileshare.net/folder/167469/"
+    }
+  ]
+}
