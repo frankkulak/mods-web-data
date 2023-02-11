@@ -2,8 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
 
-const DATA_DIR = path.resolve(__dirname, "../data");
 const BUILD_DIR = path.resolve(__dirname, "../build");
+const DATA_DIR = path.resolve(__dirname, "../data");
+const MODS_DIR = path.join(DATA_DIR, "mods");
 
 //#region Helpers
 
@@ -18,8 +19,18 @@ function getDestinationPath(sourcePath) {
   const rel = sourcePath.replace(DATA_DIR, "");
   const dest = path.join(BUILD_DIR, rel);
   const dir = path.dirname(dest);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   return dest;
+}
+
+/**
+ * Parses the content of the give JSON file into an object.
+ *
+ * @param {string} filepath Path to JSON file
+ * @returns {object}
+ */
+function parseJsonFile(filepath) {
+  return JSON.parse(fs.readFileSync(filepath).toString());
 }
 
 /**
@@ -30,9 +41,22 @@ function getDestinationPath(sourcePath) {
  */
 function minifyJson(filepath) {
   const dest = getDestinationPath(filepath);
-  const json = JSON.parse(fs.readFileSync(filepath).toString());
+  const json = parseJsonFile(filepath);
   delete json.$schema;
   fs.writeFileSync(dest, JSON.stringify(json));
+}
+
+/**
+ * Gets the names of all subdirs in the given dir.
+ *
+ * @param {string} dir Full path to dir to search
+ * @returns List of subdir names
+ */
+function getSubdirs(dir) {
+  return fs
+    .readdirSync(dir, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
 }
 
 //#endregion
@@ -42,6 +66,25 @@ function minifyJson(filepath) {
 // minify top-level data
 glob.sync(path.join(DATA_DIR, "*.json")).forEach(minifyJson);
 
-// TODO: process mods
+// process individual mod data
+const modDataMap = new Map();
+getSubdirs(MODS_DIR).forEach((modId) => {
+  // load index JSON
+  const indexPath = path.join(MODS_DIR, modId, "index.json");
+  const indexJson = parseJsonFile(indexPath);
+  modDataMap.set(modId, indexJson);
+
+  // transform for prod
+  delete indexJson.$schema;
+  indexJson.pages.forEach((page) => {
+    const htmlPath = path.join(MODS_DIR, modId, page.html);
+    const htmlContent = fs.readFileSync(htmlPath).toString();
+    page.html = htmlContent;
+  });
+
+  // write index
+  const dest = getDestinationPath(indexPath);
+  fs.writeFileSync(dest, JSON.stringify(indexJson));
+});
 
 //#endregion
