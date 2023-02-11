@@ -39,6 +39,9 @@ function minifyJson(filepath) {
 
 //#region Build
 
-// TODO:
+// minify top-level data
+glob.sync(path.join(DATA_DIR, "*.json")).forEach(minifyJson);
+
+// TODO: process mods
 
 //#endregion
