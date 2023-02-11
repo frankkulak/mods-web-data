@@ -48,6 +48,15 @@
       "description": "HTML content to display while downloading the mod.",
       "type": "string"
     },
+    "earlyAccess": {
+      "description": "What kind of early access this mod is in, if any.",
+      "type": "string",
+      "enum": [
+        "alpha",
+        "beta",
+        "none"
+      ]
+    },
     "kind": {
       "description": "What kind of mod this is.",
       "type": "string",
