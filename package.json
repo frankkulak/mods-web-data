@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "author": "frankkulak",
   "scripts": {
-    "build": "node scripts/build.cjs"
+    "build": "node scripts/build.cjs",
+    "clean": "rm -rf ./build/**"
   },
   "dependencies": {
     "glob": "^8.1.0"
