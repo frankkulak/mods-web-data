@@ -70,6 +70,30 @@
       "items": {
         "$ref": "#/definitions/modId"
       }
+    },
+    "displayData": {
+      "description": "Data required for display. This only exists in the generated build file, and should not be in the source. These properties correspond 1:1 with those of the same name in the mod schema.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "lastUpdated": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
