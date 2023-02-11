@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "required": [
+    "date",
+    "version"
+  ],
+  "properties": {
+    "date": {
+      "description": "Date of last update.",
+      "type": "string"
+    },
+    "version": {
+      "description": "Version number of last update.",
+      "type": "string"
+    }
+  }
+}
