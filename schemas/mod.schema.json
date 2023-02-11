@@ -2,7 +2,6 @@
   "$schema": "http://json-schema.org/schema",
   "type": "object",
   "required": [
-    "coverImage",
     "description",
     "kind",
     "lastUpdated",
@@ -13,10 +12,6 @@
     "version"
   ],
   "properties": {
-    "coverImage": {
-      "description": "Name of cover image to use for this mod.",
-      "type": "string"
-    },
     "description": {
       "description": "Brief description of the mod.",
       "type": "string"
