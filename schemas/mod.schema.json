@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "required": [
+    "coverImage",
+    "description",
+    "kind",
+    "lastUpdated",
+    "name",
+    "pages",
+    "stage",
+    "status",
+    "version"
+  ],
+  "properties": {
+    "coverImage": {
+      "description": "Name of cover image to use for this mod.",
+      "type": "string"
+    },
+    "description": {
+      "description": "Brief description of the mod.",
+      "type": "string"
+    },
+    "kind": {
+      "description": "What kind of mod this is.",
+      "type": "string",
+      "enum": [
+        "gameplay",
+        "utility"
+      ]
+    },
+    "lastUpdated": {
+      "description": "The date of the last update to this mod.",
+      "type": "string"
+    },
+    "name": {
+      "description": "Display name of this mod.",
+      "type": "string"
+    },
+    "pages": {
+      "description": "List of pages to display for this mod.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "html"
+        ],
+        "properties": {
+          "title": {
+            "description": "Label to display on the tab for this page.",
+            "type": "string"
+          },
+          "html": {
+            "description": "Name of HTML file to use for this page's content.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "stage": {
+      "description": "Current development stage of this mod.",
+      "type": "string",
+      "enum": [
+        "alpha",
+        "beta",
+        "public",
+        "wip"
+      ]
+    },
+    "status": {
+      "description": "The current status of this mod.",
+      "type": "string",
+      "enum": [
+        "outdated",
+        "unreleased",
+        "untested",
+        "working"
+      ]
+    },
+    "version": {
+      "description": "Current version of the mod.",
+      "type": "string"
+    }
+  }
+}
