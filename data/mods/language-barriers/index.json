@@ -1,7 +1,27 @@
 {
-  "$schema": "../../../schemas/mod-page.schema.json",
-  "version": 1,
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Language Barriers",
+  "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
+  "version": "2.2.1",
+  "lastUpdated": "August 9, 2022",
+  "kind": "gameplay",
+  "stage": "public",
+  "status": "working",
   "translatable": true,
+  "pages": [
+    {
+      "title": "Overview",
+      "html": "details.html"
+    },
+    {
+      "title": "FAQs",
+      "html": "faqs.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
   "translations": [
     {
       "code": "ENG_US",
@@ -147,6 +167,12 @@
           "name": "SHUSHU"
         }
       ]
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "https://simfileshare.net/folder/113217/"
     }
   ]
 }
