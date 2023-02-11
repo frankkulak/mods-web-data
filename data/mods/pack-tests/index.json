@@ -18,6 +18,12 @@
       "html": "changelog.html"
     }
   ],
+  "documentation": [
+    {
+      "host": "Sim File Share",
+      "href": "http://www.simfileshare.net/download/2251516/"
+    }
+  ],
   "downloads": [
     {
       "host": "Sim File Share",

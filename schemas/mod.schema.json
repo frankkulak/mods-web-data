@@ -1,5 +1,29 @@
 {
   "$schema": "http://json-schema.org/schema",
+  "definitions": {
+    "downloadList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "host",
+          "href"
+        ],
+        "properties": {
+          "host": {
+            "description": "Name of website where download is hosted.",
+            "type": "string"
+          },
+          "href": {
+            "description": "HREF to use in download link.",
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
   "type": "object",
   "required": [
     "description",
@@ -16,28 +40,13 @@
       "description": "Brief description of the mod.",
       "type": "string"
     },
+    "documentation": {
+      "description": "List of places to download the documentation.",
+      "$ref": "#/definitions/downloadList"
+    },
     "downloads": {
       "description": "List of places to download the mod.",
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "host",
-          "href"
-        ],
-        "properties": {
-          "host": {
-            "description": "Name of website where mod is hosted.",
-            "type": "string"
-          },
-          "href": {
-            "description": "Link to file(s).",
-            "type": "string"
-          }
-        }
-      }
+      "$ref": "#/definitions/downloadList"
     },
     "downloadWarning": {
       "description": "HTML content to display while downloading the mod.",
