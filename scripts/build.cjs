@@ -87,4 +87,28 @@ getSubdirs(MODS_DIR).forEach((modId) => {
   fs.writeFileSync(dest, JSON.stringify(indexJson));
 });
 
+// process and transform overall mod index
+(() => {
+  // loading JSON
+  const modIndexPath = path.join(MODS_DIR, "index.json");
+  const modIndexJson = parseJsonFile(modIndexPath);
+  delete modIndexJson.$schema;
+
+  // adding display data
+  modIndexJson.displayData = {};
+  modDataMap.forEach((modData, modId) => {
+    modIndexJson.displayData[modId] = {
+      description: modData.description,
+      lastUpdated: modData.lastUpdated,
+      name: modData.name,
+      status: modData.status,
+      version: modData.version,
+    };
+  });
+
+  // writing index
+  const dest = getDestinationPath(modIndexPath);
+  fs.writeFileSync(dest, JSON.stringify(modIndexJson));
+})();
+
 //#endregion
