@@ -101,10 +101,11 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
   modDataMap.forEach((modData, modId) => {
     modIndexJson.displayData[modId] = {
       description: modData.description,
-      lastUpdated: modData.lastUpdated,
+      featured: modData.featured,
+      lastUpdated: modData.lastUpdated ?? "",
       name: modData.name,
       status: modData.status,
-      version: modData.version,
+      version: modData.version ?? "",
     };
   });
 

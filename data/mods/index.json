@@ -1,30 +1,34 @@
 {
   "$schema": "../../schemas/mod-index.schema.json",
-  "featured": [
-    "language-barriers"
-  ],
   "categories": [
     {
-      "title": "Gameplay Mods",
-      "text": "Mods that actually do things",
+      "title": "Gameplay",
       "modIds": [
-        "bad-translations",
         "buy-bits-and-pieces",
         "followers-for-fame",
-        "online-homework",
+        "language-barriers",
+        "online-homework"
+      ]
+    },
+    {
+      "title": "Silly",
+      "modIds": [
+        "bad-translations",
         "utter-chaos"
       ]
     },
     {
-      "title": "Utility Mods",
-      "text": "Mods that do super top-secret stuff",
+      "title": "Utility",
       "modIds": [
         "pack-tests",
         "show-sim-info"
       ]
+    },
+    {
+      "title": "WIP",
+      "modIds": [
+        "simway"
+      ]
     }
-  ],
-  "wips": [
-    "simway"
   ]
 }

@@ -27,13 +27,10 @@
   "type": "object",
   "required": [
     "description",
-    "kind",
-    "lastUpdated",
     "name",
     "pages",
     "stage",
-    "status",
-    "version"
+    "status"
   ],
   "properties": {
     "description": {
@@ -61,17 +58,13 @@
         "none"
       ]
     },
+    "featured": {
+      "description": "Whether or not this mod should be displayed more prominently.",
+      "type": "boolean"
+    },
     "hideTranslations": {
       "description": "Whether or not to hide the translations section.",
       "type": "boolean"
-    },
-    "kind": {
-      "description": "What kind of mod this is.",
-      "type": "string",
-      "enum": [
-        "gameplay",
-        "utility"
-      ]
     },
     "lastUpdated": {
       "description": "The date of the last update to this mod.",
@@ -118,7 +111,7 @@
       "description": "The current status of this mod.",
       "type": "string",
       "enum": [
-        "outdated",
+        "broken",
         "unreleased",
         "untested",
         "working"

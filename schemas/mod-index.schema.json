@@ -19,20 +19,11 @@
   },
   "type": "object",
   "required": [
-    "featured",
     "categories"
   ],
   "properties": {
-    "featured": {
-      "description": "List of mods to display at the top of the page in larger, more prominent panels.",
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "$ref": "#/definitions/modId"
-      }
-    },
     "categories": {
-      "description": "List of categories in which to display non-featured mods.",
+      "description": "List of categories to group mods by.",
       "type": "array",
       "minItems": 1,
       "items": {
@@ -40,20 +31,15 @@
         "additionalProperties": false,
         "required": [
           "title",
-          "text",
           "modIds"
         ],
         "properties": {
           "title": {
-            "description": "Title to display above category section.",
-            "type": "string"
-          },
-          "text": {
-            "description": "Brief description to display under the title.",
+            "description": "Title of this category.",
             "type": "string"
           },
           "modIds": {
-            "description": "List of mods to display under this category.",
+            "description": "List of mods in this category.",
             "type": "array",
             "minItems": 1,
             "items": {
@@ -61,14 +47,6 @@
             }
           }
         }
-      }
-    },
-    "wips": {
-      "description": "List of mods that are currently being worked on.",
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "$ref": "#/definitions/modId"
       }
     },
     "displayData": {
@@ -79,6 +57,9 @@
         "properties": {
           "description": {
             "type": "string"
+          },
+          "featured": {
+            "type": "boolean"
           },
           "lastUpdated": {
             "type": "string"

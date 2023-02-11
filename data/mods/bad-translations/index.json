@@ -4,7 +4,6 @@
   "description": "Wonder how game look when translations? Now know! This mod translates every line of text in the game to another language and then back to English, leading to some jumbled garbage.",
   "version": "1.0",
   "lastUpdated": "September 12, 2022",
-  "kind": "gameplay",
   "stage": "public",
   "status": "working",
   "translatable": false,
