@@ -4,7 +4,8 @@ const glob = require("glob");
 
 const BUILD_DIR = path.resolve(__dirname, "../build");
 const DATA_DIR = path.resolve(__dirname, "../data");
-const MODS_DIR = path.join(DATA_DIR, "mods");
+const MODS_DATA_DIR = path.join(DATA_DIR, "mods");
+const MODS_BUILD_DIR = path.join(BUILD_DIR, "mods");
 
 //#region Helpers
 
@@ -68,30 +69,30 @@ glob.sync(path.join(DATA_DIR, "*.json")).forEach(minifyJson);
 
 // process individual mod data
 const modDataMap = new Map();
-getSubdirs(MODS_DIR).forEach((modId) => {
+getSubdirs(MODS_DATA_DIR).forEach((modId) => {
   // load index JSON
-  const indexPath = path.join(MODS_DIR, modId, "index.json");
-  if (!fs.existsSync(indexPath)) return;
+  const indexPath = path.join(MODS_DATA_DIR, modId, "index.json");
   const indexJson = parseJsonFile(indexPath);
   modDataMap.set(modId, indexJson);
 
   // transform for prod
   delete indexJson.$schema;
   indexJson.pages.forEach((page) => {
-    const htmlPath = path.join(MODS_DIR, modId, page.html);
+    const htmlPath = path.join(MODS_DATA_DIR, modId, page.html);
     const htmlContent = fs.readFileSync(htmlPath).toString();
     page.html = htmlContent;
   });
 
   // write index
-  const dest = path.join(BUILD_DIR, `mods/${modId}.json`);
+  const dest = path.join(MODS_BUILD_DIR, `${modId}.json`);
+  if (!fs.existsSync(MODS_BUILD_DIR)) fs.mkdirSync(MODS_BUILD_DIR);
   fs.writeFileSync(dest, JSON.stringify(indexJson));
 });
 
 // process and transform overall mod index
 (() => {
   // loading JSON
-  const modIndexPath = path.join(MODS_DIR, "index.json");
+  const modIndexPath = path.join(MODS_DATA_DIR, "index.json");
   const modIndexJson = parseJsonFile(modIndexPath);
   delete modIndexJson.$schema;
 
