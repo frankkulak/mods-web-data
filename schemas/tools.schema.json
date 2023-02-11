@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "tools"
   ],
@@ -11,6 +12,7 @@
       "minItems": 1,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": [
           "title",
           "text",
@@ -35,6 +37,7 @@
             "minItems": 1,
             "items": {
               "type": "object",
+              "additionalProperties": false,
               "required": [
                 "label",
                 "href"

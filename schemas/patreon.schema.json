@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "billingDisclaimers",
     "tiers"
@@ -23,6 +24,7 @@
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": [
           "name",
           "price",
