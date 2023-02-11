@@ -71,6 +71,7 @@ const modDataMap = new Map();
 getSubdirs(MODS_DIR).forEach((modId) => {
   // load index JSON
   const indexPath = path.join(MODS_DIR, modId, "index.json");
+  if (!fs.existsSync(indexPath)) return;
   const indexJson = parseJsonFile(indexPath);
   modDataMap.set(modId, indexJson);
 

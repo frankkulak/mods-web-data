@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Bad Translations",
+  "description": "Wonder how game look when translations? Now know! This mod translates every line of text in the game to another language and then back to English, leading to some jumbled garbage.",
+  "version": "1.0",
+  "lastUpdated": "September 12, 2022",
+  "kind": "gameplay",
+  "stage": "public",
+  "status": "working",
+  "translatable": false,
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "http://simfileshare.net/folder/170883/"
+    }
+  ]
+}
