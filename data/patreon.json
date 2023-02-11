@@ -1,6 +1,5 @@
 {
   "$schema": "../schemas/patreon.schema.json",
-  "version": 1,
   "billingDisclaimers": [
     "Prices are listed in USD. You are billed when you sign up, and then on the first of every month. You can unsubscribe at any time.",
     "More information about the benefits is available on Patreon. Please review this before signing up."

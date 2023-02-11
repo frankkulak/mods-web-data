@@ -1,14 +1,15 @@
 {
   "$schema": "http://json-schema.org/schema",
   "type": "object",
+  "required": [
+    "billingDisclaimers",
+    "tiers"
+  ],
   "properties": {
-    "version": {
-      "description": "Current schema version.",
-      "type": "number"
-    },
     "billingDisclaimers": {
       "description": "Disclaimers to list after Patreon tiers.",
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "string"
       }
@@ -22,6 +23,11 @@
       "type": "array",
       "items": {
         "type": "object",
+        "required": [
+          "name",
+          "price",
+          "benefits"
+        ],
         "properties": {
           "name": {
             "description": "Name of tier.",
