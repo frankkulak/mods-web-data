@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "frankkulak",
   "scripts": {
-    "minify": "node scripts/minify-data.cjs"
+    "build": "node scripts/build.cjs"
   },
   "dependencies": {
     "glob": "^8.1.0"
