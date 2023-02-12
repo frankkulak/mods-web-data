@@ -26,17 +26,13 @@
   },
   "type": "object",
   "required": [
-    "description",
     "name",
     "pages",
     "stage",
-    "status"
+    "status",
+    "tagline"
   ],
   "properties": {
-    "description": {
-      "description": "Brief description of the mod.",
-      "type": "string"
-    },
     "documentation": {
       "description": "List of places to download the documentation.",
       "$ref": "#/definitions/downloadList"
@@ -116,6 +112,10 @@
         "untested",
         "working"
       ]
+    },
+    "tagline": {
+      "description": "Very brief text to display under mod name.",
+      "type": "string"
     },
     "translatable": {
       "description": "Whether or not this mod is able to be translated.",

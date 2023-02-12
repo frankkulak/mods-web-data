@@ -1,6 +1,7 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Pack Tests",
+  "tagline": "Utility for modders",
   "description": "If you ever need to test whether your users have a particular pack installed or not, this script will allow you to do so directly in tuning - no scripting abilities required!",
   "version": "1.0.1",
   "lastUpdated": "July 20, 2021",

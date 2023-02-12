@@ -11,17 +11,17 @@
       ]
     },
     {
-      "title": "Silly",
-      "modIds": [
-        "bad-translations",
-        "utter-chaos"
-      ]
-    },
-    {
       "title": "Utility",
       "modIds": [
         "pack-tests",
         "show-sim-info"
+      ]
+    },
+    {
+      "title": "Silly",
+      "modIds": [
+        "bad-translations",
+        "utter-chaos"
       ]
     },
     {

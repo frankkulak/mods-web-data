@@ -1,6 +1,7 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Online Homework",
+  "tagline": "Do homework on computers",
   "description": "Can't find your sim's notebook? Well, now you can do their homework at any computer or laptop. This mod works for children, teens, and university students.",
   "version": "1.1",
   "lastUpdated": "December 21, 2020",

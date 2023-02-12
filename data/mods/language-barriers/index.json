@@ -1,6 +1,7 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Language Barriers",
+  "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
   "version": "2.2.1",
   "lastUpdated": "August 9, 2022",

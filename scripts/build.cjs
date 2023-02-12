@@ -95,17 +95,18 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
   const modIndexPath = path.join(MODS_DATA_DIR, "index.json");
   const modIndexJson = parseJsonFile(modIndexPath);
   delete modIndexJson.$schema;
+  delete modIndexJson.description; // leave in source for now, might be used later
 
   // adding display data
   modIndexJson.allMods = [...modDataMap.keys()];
   modIndexJson.displayData = {};
   modDataMap.forEach((modData, modId) => {
     modIndexJson.displayData[modId] = {
-      description: modData.description,
       featured: modData.featured,
       lastUpdated: modData.lastUpdated ?? "",
       name: modData.name,
       status: modData.status,
+      tagline: modData.tagline,
       version: modData.version ?? "",
     };
   });

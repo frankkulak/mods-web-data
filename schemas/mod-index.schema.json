@@ -62,9 +62,6 @@
       "additionalProperties": {
         "type": "object",
         "properties": {
-          "description": {
-            "type": "string"
-          },
           "featured": {
             "type": "boolean"
           },
@@ -75,6 +72,9 @@
             "type": "string"
           },
           "status": {
+            "type": "string"
+          },
+          "tagline": {
             "type": "string"
           },
           "version": {
