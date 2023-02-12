@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Show Sim Info",
-  "tagline": "View internal data",
+  "tagline": "View internal sim data",
   "description": "View all of the internal data for particular sims with an interaction. Originally by Itasan.",
   "version": "3.8.3",
   "lastUpdated": "August 7, 2022",
