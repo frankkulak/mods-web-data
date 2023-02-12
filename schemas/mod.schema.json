@@ -26,6 +26,7 @@
   },
   "type": "object",
   "required": [
+    "description",
     "name",
     "pages",
     "stage",
@@ -33,6 +34,10 @@
     "tagline"
   ],
   "properties": {
+    "description": {
+      "description": "Brief description of this mod.",
+      "type": "string"
+    },
     "documentation": {
       "description": "List of places to download the documentation.",
       "$ref": "#/definitions/downloadList"
