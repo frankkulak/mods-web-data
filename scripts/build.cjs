@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
+const htmlMinify = require("html-minifier").minify;
 
 const BUILD_DIR = path.resolve(__dirname, "../build");
 const DATA_DIR = path.resolve(__dirname, "../data");
@@ -80,7 +81,9 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
   indexJson.pages.forEach((page) => {
     const htmlPath = path.join(MODS_DATA_DIR, modId, page.html);
     const htmlContent = fs.readFileSync(htmlPath).toString();
-    page.html = htmlContent;
+    page.html = htmlMinify(htmlContent, {
+      collapseWhitespace: true,
+    });
   });
 
   // write index
