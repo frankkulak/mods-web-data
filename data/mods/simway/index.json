@@ -10,10 +10,6 @@
     {
       "title": "Details",
       "html": "details.html"
-    },
-    {
-      "title": "Changelog",
-      "html": "changelog.html"
     }
   ]
 }
