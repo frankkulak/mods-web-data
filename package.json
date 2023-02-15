@@ -2,12 +2,17 @@
   "name": "mods-web-data",
   "version": "1.0.0",
   "author": "frankkulak",
+  "main": "./scripts/build.cjs",
   "scripts": {
-    "build": "node scripts/build.cjs",
-    "clean": "rm -rf ./build/**"
+    "build": "node .",
+    "clean": "rm -rf ./build/**",
+    "dev": "nodemon --watch data -e json,html ."
   },
   "dependencies": {
     "glob": "^8.1.0",
     "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
