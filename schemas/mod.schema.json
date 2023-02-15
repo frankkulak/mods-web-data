@@ -22,6 +22,72 @@
           }
         }
       }
+    },
+    "packs": {
+      "type": "string",
+      "enum": [
+        "Get to Work",
+        "Get Together",
+        "City Living",
+        "Cats & Dogs",
+        "Seasons",
+        "Get Famous",
+        "Island Living",
+        "Discover University",
+        "Eco Lifestyle",
+        "Snowy Escape",
+        "Cottage Living",
+        "High School Years",
+        "Outdoor Retreat",
+        "Spa Day",
+        "Dine Out",
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville",
+        "Realm of Magic",
+        "Journey to Batuu",
+        "Dream Home Decorator",
+        "My Wedding Stories",
+        "Werewolves",
+        "Luxury Party Stuff",
+        "Perfect Patio Stuff",
+        "Cool Kitchen Stuff",
+        "Spooky Stuff",
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff",
+        "Kids Room Stuff",
+        "Backyard Stuff",
+        "Vintage Glamour Stuff",
+        "Bowling Night Stuff",
+        "Fitness Stuff",
+        "Toddler Stuff",
+        "Laundry Day Stuff",
+        "My First Pet Stuff",
+        "Moschino Stuff",
+        "Tiny Living Stuff",
+        "Nifty Knitting Stuff",
+        "Paranormal Stuff",
+        "Throwback Fit Kit",
+        "Country Kitchen Kit",
+        "Bust the Dust Kit",
+        "Courtyard Oasis Kit",
+        "Fashion Street Kit",
+        "Industrial Loft Stuff",
+        "Incheon Arrivals Kit",
+        "Modern Menswear Kit",
+        "Blooming Rooms Kit",
+        "Carnaval Streetwear Kit",
+        "Decor to the Max Kit",
+        "Moonlight Chic Kit",
+        "Little Campers Kit",
+        "First Fits Kit",
+        "Desert Luxe Kit",
+        "Pastel Pop Kit",
+        "Everyday Clutter Kit",
+        "Simtimates Collection Kit",
+        "Bathroom Clutter Kit"
+      ]
     }
   },
   "type": "object",
@@ -96,6 +162,20 @@
             "type": "string"
           }
         }
+      }
+    },
+    "recommendedPacks": {
+      "description": "Packs that enhance this mod's gameplay.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/packs"
+      }
+    },
+    "requiredPacks": {
+      "description": "Packs that are required for this mod to work. If empty, it is BG compatible.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/packs"
       }
     },
     "stage": {
