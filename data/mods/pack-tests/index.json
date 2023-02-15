@@ -10,8 +10,12 @@
   "hideTranslations": true,
   "pages": [
     {
-      "title": "Details",
-      "html": "details.html"
+      "title": "For Users",
+      "html": "users.html"
+    },
+    {
+      "title": "For Modders",
+      "html": "modders.html"
     },
     {
       "title": "Changelog",
