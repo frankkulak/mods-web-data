@@ -9,6 +9,15 @@
   "stage": "public",
   "status": "working",
   "translatable": true,
+  "recommendedPacks": [
+    "Island Living",
+    "Jungle Adventure",
+    "Get to Work",
+    "Get Together",
+    "Snowy Escape",
+    "My Wedding Stories",
+    "High School Years"
+  ],
   "pages": [
     {
       "title": "Details",

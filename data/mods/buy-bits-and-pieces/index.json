@@ -8,6 +8,9 @@
   "stage": "public",
   "status": "working",
   "translatable": true,
+  "requiredPacks": [
+    "Eco Lifestyle"
+  ],
   "pages": [
     {
       "title": "Details",

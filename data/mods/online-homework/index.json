@@ -8,6 +8,9 @@
   "stage": "public",
   "status": "working",
   "translatable": false,
+  "recommendedPacks": [
+    "Discover University"
+  ],
   "pages": [
     {
       "title": "Details",
