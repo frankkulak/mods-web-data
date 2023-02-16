@@ -23,7 +23,7 @@
         }
       }
     },
-    "packs": {
+    "expansionPacks": {
       "type": "string",
       "enum": [
         "Get to Work",
@@ -37,7 +37,12 @@
         "Eco Lifestyle",
         "Snowy Escape",
         "Cottage Living",
-        "High School Years",
+        "High School Years"
+      ]
+    },
+    "gamePacks": {
+      "type": "string",
+      "enum": [
         "Outdoor Retreat",
         "Spa Day",
         "Dine Out",
@@ -49,7 +54,12 @@
         "Journey to Batuu",
         "Dream Home Decorator",
         "My Wedding Stories",
-        "Werewolves",
+        "Werewolves"
+      ]
+    },
+    "stuffPacks": {
+      "type": "string",
+      "enum": [
         "Luxury Party Stuff",
         "Perfect Patio Stuff",
         "Cool Kitchen Stuff",
@@ -67,7 +77,12 @@
         "Moschino Stuff",
         "Tiny Living Stuff",
         "Nifty Knitting Stuff",
-        "Paranormal Stuff",
+        "Paranormal Stuff"
+      ]
+    },
+    "kitPacks": {
+      "type": "string",
+      "enum": [
         "Throwback Fit Kit",
         "Country Kitchen Kit",
         "Bust the Dust Kit",
@@ -88,6 +103,35 @@
         "Simtimates Collection Kit",
         "Bathroom Clutter Kit"
       ]
+    },
+    "packs": {
+      "type": "object",
+      "properties": {
+        "eps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/expansionPacks"
+          }
+        },
+        "gps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/gamePacks"
+          }
+        },
+        "sps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/stuffPacks"
+          }
+        },
+        "kits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/kitPacks"
+          }
+        }
+      }
     }
   },
   "type": "object",
@@ -166,17 +210,11 @@
     },
     "recommendedPacks": {
       "description": "Packs that enhance this mod's gameplay.",
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/packs"
-      }
+      "$ref": "#/definitions/packs"
     },
     "requiredPacks": {
       "description": "Packs that are required for this mod to work. If empty, it is BG compatible.",
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/packs"
-      }
+      "$ref": "#/definitions/packs"
     },
     "stage": {
       "description": "Current development stage of this mod.",

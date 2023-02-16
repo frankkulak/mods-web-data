@@ -8,9 +8,11 @@
   "stage": "public",
   "status": "working",
   "translatable": false,
-  "recommendedPacks": [
-    "Discover University"
-  ],
+  "recommendedPacks": {
+    "eps": [
+      "Discover University"
+    ]
+  },
   "pages": [
     {
       "title": "Details",
