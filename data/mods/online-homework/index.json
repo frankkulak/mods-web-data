@@ -8,6 +8,11 @@
   "stage": "public",
   "status": "working",
   "hasNoCustomStrings": true,
+  "seoTags": [
+    "kids",
+    "school",
+    "interaction"
+  ],
   "recommendedPacks": {
     "eps": [
       "Discover University"

@@ -8,6 +8,15 @@
   "stage": "public",
   "status": "warnings",
   "hasNoCustomStrings": true,
+  "seoTags": [
+    "chaos",
+    "chaotic",
+    "funny",
+    "weird",
+    "fire",
+    "skeleton",
+    "chicken"
+  ],
   "pages": [
     {
       "title": "Details",

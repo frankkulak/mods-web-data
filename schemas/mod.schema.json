@@ -224,6 +224,13 @@
       "description": "Packs that are required for this mod to work. If empty, it is BG compatible.",
       "$ref": "#/definitions/packs"
     },
+    "seoTags": {
+      "description": "Tags to use for SEO with this mod.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "stage": {
       "description": "Current development stage of this mod.",
       "type": "string",

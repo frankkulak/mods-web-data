@@ -8,6 +8,14 @@
   "stage": "public",
   "status": "working",
   "notTranslatable": true,
+  "seoTags": [
+    "google",
+    "translate",
+    "translation",
+    "translator",
+    "funny",
+    "weird"
+  ],
   "pages": [
     {
       "title": "Details",

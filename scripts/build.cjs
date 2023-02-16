@@ -108,6 +108,7 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
       featured: modData.featured,
       lastUpdated: modData.lastUpdated ?? "",
       name: modData.name,
+      seoTags: modData.seoTags,
       status: modData.status,
       tagline: modData.tagline,
       version: modData.version ?? "",
