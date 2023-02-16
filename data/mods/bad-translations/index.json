@@ -22,6 +22,10 @@
       "html": "details.html"
     },
     {
+      "title": "Nerd Info",
+      "html": "nerd-info.html"
+    },
+    {
       "title": "Changelog",
       "html": "changelog.html"
     }
