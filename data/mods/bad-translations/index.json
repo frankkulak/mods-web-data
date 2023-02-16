@@ -40,10 +40,15 @@
       ]
     }
   ],
+  "downloadWarning": "There are two versions of this mod available: clean and explicit. Only download one version.",
   "downloads": [
     {
       "host": "Sim File Share",
       "href": "http://simfileshare.net/folder/170883/"
+    },
+    {
+      "host": "Google Drive",
+      "href": "https://drive.google.com/drive/folders/10noucQcaL-FZJ7kULLC1TgSFdS0712FC?usp=sharing"
     }
   ]
 }
