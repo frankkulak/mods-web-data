@@ -10,11 +10,11 @@
   "status": "working",
   "recommendedPacks": {
     "eps": [
-      "Island Living",
       "Get to Work",
       "Get Together",
-      "Snowy Escape",
-      "High School Years"
+      "High School Years",
+      "Island Living",
+      "Snowy Escape"
     ],
     "gps": [
       "Jungle Adventure",
