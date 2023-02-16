@@ -173,6 +173,10 @@
       "description": "Whether or not this mod should be displayed more prominently.",
       "type": "boolean"
     },
+    "hasNoCustomStrings": {
+      "description": "Whether or not this mod has no custom strings (intentionally negated so default can be false).",
+      "type": "boolean"
+    },
     "hideTranslations": {
       "description": "Whether or not to hide the translations section.",
       "type": "boolean"
@@ -184,6 +188,10 @@
     "name": {
       "description": "Display name of this mod.",
       "type": "string"
+    },
+    "notTranslatable": {
+      "description": "Whether or not this mod cannot be translated (intentionally negated so default can be false).",
+      "type": "boolean"
     },
     "pages": {
       "description": "List of pages to display for this mod.",
@@ -240,10 +248,6 @@
     "tagline": {
       "description": "Very brief text to display under mod name.",
       "type": "string"
-    },
-    "translatable": {
-      "description": "Whether or not this mod is able to be translated.",
-      "type": "boolean"
     },
     "translations": {
       "description": "List of available translations.",

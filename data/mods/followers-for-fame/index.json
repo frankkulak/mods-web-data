@@ -7,7 +7,6 @@
   "lastUpdated": "May 25, 2022",
   "stage": "public",
   "status": "working",
-  "translatable": true,
   "requiredPacks": {
     "eps": [
       "Get Famous"

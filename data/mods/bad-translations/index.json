@@ -7,7 +7,7 @@
   "lastUpdated": "September 12, 2022",
   "stage": "public",
   "status": "working",
-  "translatable": false,
+  "notTranslatable": true,
   "pages": [
     {
       "title": "Details",
@@ -16,6 +16,16 @@
     {
       "title": "Changelog",
       "html": "changelog.html"
+    }
+  ],
+  "translations": [
+    {
+      "code": "ENG_US",
+      "translators": [
+        {
+          "name": "Frankk"
+        }
+      ]
     }
   ],
   "downloads": [

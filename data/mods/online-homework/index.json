@@ -7,7 +7,7 @@
   "lastUpdated": "December 21, 2020",
   "stage": "public",
   "status": "working",
-  "translatable": false,
+  "hasNoCustomStrings": true,
   "recommendedPacks": {
     "eps": [
       "Discover University"

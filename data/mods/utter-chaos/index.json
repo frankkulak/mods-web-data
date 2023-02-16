@@ -7,7 +7,7 @@
   "lastUpdated": "January 16, 2022",
   "stage": "public",
   "status": "warnings",
-  "translatable": false,
+  "hasNoCustomStrings": true,
   "pages": [
     {
       "title": "Details",
