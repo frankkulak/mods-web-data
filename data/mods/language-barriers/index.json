@@ -40,6 +40,10 @@
       "html": "details.html"
     },
     {
+      "title": "Advanced",
+      "html": "advanced.html"
+    },
+    {
       "title": "FAQs",
       "html": "faqs.html"
     },
