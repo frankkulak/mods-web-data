@@ -1,6 +1,98 @@
+<h2>Regional languages</h2>
+<div class="paragraphs">
+  <p>
+    Every world has at least one official language, and may have any number of
+    secondary languages. Official languages are used to determine the native
+    languages of sims who live there, and secondary languages are used to
+    determine their default skills. By default, every world has the official
+    language that you would expect from the "Seven languages" section in the
+    "Details" tab, and their secondary languages are based on my own perception
+    of their real-world equivalents.
+  </p>
+  <p class="footnote">
+    You can view all of the default regional languages in the
+    <code>lb_settings.cfg</code> file that is included in the download, and you
+    can customize them by following
+    <a href="https://www.patreon.com/posts/54392738" target="_blank"
+      >this guide on Patreon</a
+    >
+  </p>
+</div>
+
+<h2>Hidden factors that affect languages</h2>
+<div class="paragraphs">
+  <p>
+    Regional languages only work when sims actually live in a world, meaning
+    they live in a house that is physically located there. This is a problem
+    because some NPC sims are associated with worlds while not actually living
+    there, like the NPCs in Selvadorada. To correct for this, some hidden traits
+    are considered when a sim does not have a home world. Thankfully, EA marks
+    sims from Selvadorada, Mt. Komorebi, and Sulani with hidden traits that
+    signify that they belong to those cultures. I use these traits to "mark"
+    sims as Selvadoradian, Komorebigo, and Toki Sulani speakers.
+  </p>
+  <p>
+    Additionally, I've added my own hidden traits to the template files that
+    create NPCs, which means that any sims that spawn in for a particular world
+    after you've installed LB will be marked with my own culture traits. When
+    they are marked by these traits, they will receive the associated language.
+  </p>
+  <p class="footnote">
+    For example, a sim who spawns in Windenburg will be marked with the
+    Windenburgish culture trait, and will therefore gain the Windenburgish
+    language
+  </p>
+  <p>
+    Some other traits, such as "Geek", "Genius", and "Lazy", affect sims'
+    default second language skills. Favorable traits increase their chance of
+    speaking more languages, and speaking them well. Negative traits decrease
+    these chances.
+  </p>
+</div>
+
 <h2>Language genetics</h2>
 <div class="paragraphs">
-  <p>TODO</p>
+  <p>
+    Languages are organized in a family tree, loosely based off of their
+    real-world counterparts. Language genetics affect how difficult it is for a
+    sim to learn another language, and how likely they are to make mistakes
+    while speaking it.
+  </p>
+  <ul>
+    <li>Simlish and Windenburgish are very closely related</li>
+    <p class="footnote">
+      Based on English and German, which are both Germanic languages
+    </p>
+    <li>Selvadoradian and Tartosiano are very closely related</li>
+    <p class="footnote">
+      Based on Spanish and Italian, which are both Romance languages
+    </p>
+    <li>
+      Simlish/Windenburgish are somewhat related to Selvadoradian/Tartosiano
+    </li>
+    <p class="footnote">The Germanic and Romance languages are both European</p>
+    <li>Komorebigo and Toki Sulani are somewhat related</li>
+    <p class="footnote">
+      Japanese is <em>not</em> related to the Oceanic languages in real life;
+      creative liberty was taken here based on geography
+    </p>
+    <li>
+      The "European" languages are distantly related to the "Oceanic" languages
+    </li>
+    <p class="footnote">
+      They're all spoken by humans, after all (yay, more creative liberties)
+    </p>
+    <li>Sixami is not related to any of the other languages at all</li>
+    <p class="footnote">
+      Alien languages are
+      <span class="text-subtle" title="REDACTED BY NASA"
+        >&#9608;&#9608;&#9608;&#9608;</span
+      >, which means they're
+      <span class="text-subtle" title="REDACTED BY NASA"
+        >&#9608;&#9608;&#9608;&#9608;</span
+      >
+    </p>
+  </ul>
 </div>
 
 <h2>Customization options</h2>
