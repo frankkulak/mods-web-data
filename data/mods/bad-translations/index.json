@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "downloadWarning": "There are two versions of this mod available: clean and explicit. Only download one version.",
+  "downloadWarning": "This mod only works for English. Download either the clean or explicit version, not both.",
   "downloads": [
     {
       "host": "Sim File Share",
