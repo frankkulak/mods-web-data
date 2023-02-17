@@ -97,20 +97,262 @@
 
 <h2>Customization options</h2>
 <div class="paragraphs">
-  <p>TODO</p>
+  <p>Language Barriers is highly configurable.</p>
+  <ul>
+    <li>
+      You can change any sim's native languages or skills if you don't like
+      their defaults
+    </li>
+    <p class="footnote">
+      Use the "Languages" pie menu option to set a sim's native language(s), and
+      use console cheats for skills
+    </p>
+    <li>
+      You can disable Language Barriers for any sim, and they'll be able to
+      communicate like normal
+    </li>
+    <p class="footnote">
+      Use the "Languages" pie menu option and choose "Disable Language Barriers"
+    </p>
+    <li>
+      You can change how language assignment, language acquisition, and regional
+      languages work by editing the settings file
+    </li>
+    <p class="footnote">
+      No technical skills are required to do this, just follow
+      <a href="https://www.patreon.com/posts/54392738" target="_blank"
+        >this guide on Patreon</a
+      >
+    </p>
+    <li>
+      Add-ons are available that can tweak small things that may annoy you
+    </li>
+    <p class="footnote">Read the following section about "Optional add ons"</p>
+    <li>
+      If you're more tech-savvy, Language Barriers is much more customizable
+      with its tuning modules
+    </li>
+    <p class="footnote">
+      Feel free to check out and edit the
+      <code>frankk_LanguageBarriers_Data</code> package
+    </p>
+  </ul>
 </div>
 
 <h2>Optional add-ons</h2>
 <div class="paragraphs">
-  <p>TODO</p>
+  <p>
+    These must be downloaded separately on the download page and added to the
+    Language Barriers mod folder:
+  </p>
+  <ul>
+    <li>
+      Ask to change language always succeeds:
+      <span class="text-subtle"
+        >Will make the chance that a sim agrees to speak another language 100%,
+        meaning that you can always guarantee a change in language context
+        without cheating.</span
+      >
+    </li>
+    <li>
+      Hide all cheats:
+      <span class="text-subtle"
+        >Will mark all of the interactions in the "Languages" menu as actual
+        cheats, so that you have to shift-click sims to see them. This is
+        helpful for decluttering your pie menus, if it bothers you.</span
+      >
+    </li>
+    <li>
+      Hide communication notifications:
+      <span class="text-subtle"
+        >Will prevent communication notifications (e.g. "Accidentally Said
+        Something Inappropriate") from being shown, if they annoy you. These
+        appear every time a communication event occurs, which can be very
+        frequent if two sims do not share a language.</span
+      >
+    </li>
+    <li>
+      Hide language context notifications:
+      <span class="text-subtle"
+        >Will prevent language context notifications (e.g. "Language Context
+        Determined") from being shown, if they annoy you. These generally appear
+        whenever you meet a sim for the first time.</span
+      >
+    </li>
+    <li>
+      Hide Sixami from Simlingo:
+      <span class="text-subtle"
+        >Will turn the Simlingo interactions for Sixami into cheats, so you will
+        not see them while playing the game normally. This is useful if you do
+        not wish to play with the occult language, or find it unrealistic that
+        such a language would be available to study online.</span
+      >
+    </li>
+  </ul>
 </div>
 
 <h2>Integration with other mods</h2>
 <div class="paragraphs">
-  <p>TODO</p>
+  <p>
+    Interaction locking will <em>kinda</em> work with CC interactions that are
+    in the friendly, funny, mischief, mean, or romance categories. Some
+    mis-matches can occur, though: (1) if they are non-verbal, they may be
+    locked, (2) if they are in their own CC categories, they will not be
+    affected at all.
+  </p>
+  <p>
+    In order for LB to work properly with another mod that adds social
+    interactions, either I or its creator has to make an integration for it.
+    Integrations are small files that tell LB which interactions to lock or not.
+    If you want to see LB better integrated with another mod, just let me know.
+  </p>
+  <p class="footnote">
+    A guide on how to create an integration can be
+    <a
+      href="https://frankkmods.medium.com/how-to-integrate-your-mod-with-language-barriers-a1680c7bceab"
+      target="_blank"
+      >found here</a
+    >
+  </p>
+  <p>
+    The only integrations that are currently available are for
+    <a
+      href="https://littlemssam.tumblr.com/post/175413426238/simda-dating-app-simda-dating-app-can-help-you"
+      target="_blank"
+      >SimDa Dating App by LittleMsSam</a
+    >
+    and
+    <a href="https://www.patreon.com/posts/nc4t-mod-48682571" target="_blank"
+      >Pickpocketing Mod by NeedCoffee4That</a
+    >. If you use either of these mods, download their integrations from the
+    download page, and include it with LB when you install it.
+  </p>
 </div>
 
 <h2>Console cheats</h2>
 <div class="paragraphs">
-  <p>TODO</p>
+  <p>
+    Values in angled brackets (&lt;&gt;) must be filled in according to the
+    following:
+  </p>
+  <ul>
+    <li>
+      <code>&lt;language&gt;</code>
+      &rarr; One of: "simlish", "selvadoradian", "windenburgish", "sixami",
+      "tokisulani", "komorebigo", or "tartosiano"
+    </li>
+    <li>
+      <code>&lt;sim name&gt;</code>
+      &rarr; Must be a sim's first and last name, separated by a space
+    </li>
+    <p class="footnote">
+      If the sim's first or last name contains a space, use a % to denote that
+    </p>
+    <li>
+      <code>&lt;level&gt;</code> &rarr; Must be an integer value between 0 and
+      10; this denotes the skill level associated with a language
+    </li>
+  </ul>
+
+  <br />
+  <h4>Native language cheats</h4>
+  <ul>
+    <li>
+      <code>fklb.add &lt;language&gt; &lt;sim name&gt;</code> &rarr; Adds a
+      native language trait to a sim. Does not remove any existing native
+      languages.
+    </li>
+    <li>
+      <code>fklb.remove &lt;language&gt; &lt;sim name&gt;</code> &rarr; Removes
+      a native language trait from a sim. Does not add any other languages.
+    </li>
+    <p class="footnote">
+      This cannot be performed on a sim that only has one native language
+    </p>
+    <li>
+      <code>fklb.swap &lt;language&gt; &lt;sim name&gt;</code> &rarr; Removes
+      any existing native languages from a sim, and adds the one specified.
+    </li>
+    <li>
+      <code>fklb.reset &lt;sim name&gt;</code> &rarr; Resets all native
+      languages of a sim.
+    </li>
+    <li>
+      <code>fklb.reset_all</code> &rarr; Resets the native languages of every
+      sim in the game.
+    </li>
+  </ul>
+
+  <br />
+  <h4>Language skill cheats</h4>
+  <ul>
+    <li>
+      <code
+        >fklb.set_skill &lt;language&gt; &lt;level&gt; &lt;sim name&gt;</code
+      >
+      &rarr; Sets a sim's skill in a language to a particular level. If you
+      enter a level of 0, the skill will be entirely removed from the sim.
+    </li>
+    <li>
+      <code>fklb.reset_skills &lt;sim name&gt;</code>
+      &rarr; Resets default second languages for a sim, including guaranteed,
+      inherited, and random second languages.
+    </li>
+    <li>
+      <code>fklb.clear_skills &lt;sim name&gt;</code>
+      &rarr; Removes all language skills from a sim.
+    </li>
+  </ul>
+
+  <br />
+  <h4>Hidden trait cheats</h4>
+  <ul>
+    <li>
+      <code>fklb.enable &lt;sim name&gt;</code>
+      &rarr; Enables LB for a particular sim, making them experience language
+      barriers when talking to sims they don't share a language with.
+    </li>
+    <li>
+      <code>fklb.disable &lt;sim name&gt;</code>
+      &rarr; Disables LB for a particular sim, making them immune to locked
+      interactions and miscommunication events.
+    </li>
+    <li>
+      <code>fklb.add_multilingual &lt;sim name&gt;</code>
+      &rarr; Adds the "Native Multilingual" reward trait to a sim.
+    </li>
+    <li>
+      <code>fklb.remove_multilingual &lt;sim name&gt;</code>
+      &rarr; Removes the "Native Multilingual" reward trait from a sim.
+    </li>
+  </ul>
+
+  <br />
+  <h4>Utility/debug cheats</h4>
+  <ul>
+    <li>
+      <code>fklb.audit</code> &rarr; Outputs a list of all sims and their
+      linguistic profiles to the LanguageBarriers.log file. You probably won't
+      have a use for this, but it can be helpful in figuring out if something
+      isn't work right.
+    </li>
+    <li>
+      <code>fklb.debug</code> &rarr; Toggles debug mode. Debug mode outputs more
+      information to the log file, and is helpful for me to figure out what the
+      root cause of an error might be. You shouldn't ever have to enable this,
+      unless I ask you to.
+    </li>
+    <li>
+      <code>fklb.total_reset</code> &rarr; The nuclear option. Resets any and
+      everything associated with Language Barriers, including hidden things that
+      LB uses in the background.
+    </li>
+    <p class="footnote">
+      This should only be used if you suspect that something has gone very wrong
+      with the mod, and you want to reset it without uninstalling and
+      reinstalling. If you ever feel you need to use this cheat, please reach
+      out to me on Discord so I can figure out the cause of what's going wrong
+      with your game.
+    </p>
+  </ul>
 </div>
