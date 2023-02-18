@@ -208,5 +208,25 @@
       "host": "Google Drive",
       "href": "https://drive.google.com/drive/folders/1-5D1REN-nvr2Lld3Db-ffCNuDjKlxyK-?usp=sharing"
     }
+  ],
+  "videos": [
+    {
+      "name": "Sims Learn LANGUAGES & Language Barriers With This Cool Mod!!",
+      "creator": "Iron Seagull",
+      "platform": "YouTube",
+      "href": "https://youtu.be/Z0kDcIOSzHo"
+    },
+    {
+      "name": "YOU NEED THIS AMAZING FREE MOD FOR THE SIMS 4",
+      "creator": "itsmeTroi",
+      "platform": "YouTube",
+      "href": "https://youtu.be/BYOGSA8eJI0"
+    },
+    {
+      "name": "This mod adds NEW LANGUAGES to The Sims 4!",
+      "creator": "JC Sims",
+      "platform": "YouTube",
+      "href": "https://youtu.be/8AFVDafTUOI"
+    }
   ]
 }

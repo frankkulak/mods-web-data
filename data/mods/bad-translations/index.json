@@ -50,5 +50,13 @@
       "host": "Google Drive",
       "href": "https://drive.google.com/drive/folders/10noucQcaL-FZJ7kULLC1TgSFdS0712FC?usp=sharing"
     }
+  ],
+  "videos": [
+    {
+      "creator": "CallMeKevin",
+      "name": "This Sims 4 Bad Translations mod is hilarious",
+      "href": "https://youtu.be/JEIwNIVhV5M",
+      "platform": "YouTube"
+    }
   ]
 }

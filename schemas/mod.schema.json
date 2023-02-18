@@ -324,6 +324,37 @@
     "version": {
       "description": "Current version of the mod.",
       "type": "string"
+    },
+    "videos": {
+      "description": "List of videos showcasing the mod.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "creator",
+          "name",
+          "platform",
+          "href"
+        ],
+        "properties": {
+          "creator": {
+            "description": "Who made the video.",
+            "type": "string"
+          },
+          "href": {
+            "description": "Link where the video can be found.",
+            "type": "string"
+          },
+          "name": {
+            "description": "Name of the video.",
+            "type": "string"
+          },
+          "platform": {
+            "description": "Where the video is posted.",
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
