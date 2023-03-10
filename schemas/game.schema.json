@@ -2,10 +2,40 @@
   "$schema": "http://json-schema.org/schema",
   "type": "object",
   "required": [
+    "currentAlertIndex",
     "date",
     "version"
   ],
   "properties": {
+    "alerts": {
+      "description": "List of alerts to display to users.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "index",
+          "text"
+        ],
+        "properties": {
+          "index": {
+            "description": "The unique index of this alert.",
+            "type": "number"
+          },
+          "persistant": {
+            "description": "Whether or not this alert should show regardless of index.",
+            "type": "boolean"
+          },
+          "text": {
+            "description": "Text to display for this alert.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "currentAlertIndex": {
+      "description": "The current alert index, for tracking purposes.",
+      "type": "number"
+    },
     "date": {
       "description": "Date of last update.",
       "type": "string"
