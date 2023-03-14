@@ -228,5 +228,6 @@
       "platform": "YouTube",
       "href": "https://youtu.be/8AFVDafTUOI"
     }
-  ]
+  ],
+  "downloadWarning": "Language Barriers is broken after the infants patch. Please do not download the currently hosted version – I am working on a fix right now."
 }
