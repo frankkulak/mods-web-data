@@ -2,12 +2,11 @@
   "$schema": "../schemas/game.schema.json",
   "date": "Jan 31",
   "version": "1.95.207",
-  "currentAlertIndex": 2,
+  "currentAlertIndex": 3,
   "alerts": [
     {
-      "index": 2,
-      "text": "The infants patch (March 14, 2023) is very likely to break mods and CC. You should assume that every mod, including mine, are broken until confirmed otherwise. I am very busy at the moment, so testing and fixing my mods will take longer than usual. Keep an eye on this website and my Twitter account to know when my mods are cleared and/or fixed.",
-      "persistant": true
+      "index": 3,
+      "text": "Critical features in Language Barriers are broken after the infants patch. Other mods appear to be fine, but need more thorough testing. Keep an eye on this website and my Twitter account to know when my mods are cleared and/or fixed."
     }
   ]
 }
