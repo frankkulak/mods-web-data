@@ -3,11 +3,11 @@
   "name": "Language Barriers",
   "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
-  "version": "2.2.1",
-  "lastUpdated": "August 9, 2022",
+  "version": "2.2.2",
+  "lastUpdated": "March 15, 2023",
   "featured": true,
   "stage": "public",
-  "status": "broken",
+  "status": "working",
   "seoTags": [
     "foreign",
     "culture",
@@ -201,8 +201,12 @@
   ],
   "downloads": [
     {
-      "host": "[UNAVAILABLE]",
-      "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "host": "Sim File Share",
+      "href": "https://simfileshare.net/folder/113217/"
+    },
+    {
+      "host": "Google Drive",
+      "href": "https://drive.google.com/drive/folders/1-5D1REN-nvr2Lld3Db-ffCNuDjKlxyK-?usp=sharing"
     }
   ],
   "videos": [
@@ -225,5 +229,5 @@
       "href": "https://youtu.be/8AFVDafTUOI"
     }
   ],
-  "downloadWarning": "The infant patch broke a critical, core functionality of Language Barriers. You may not notice any issues if you keep playing, but I promise you, it is wreaking havoc in the background. Please remove it from your game while you wait for me to fix it. Because it is so broken, I have temporarily removed the download link. If you click the link despite the 3 warnings on this page that the mod is broken, you'll get what you deserve."
+  "downloadWarning": "The infant patch broke LB v2.2.1; please ensure you are using v2.2.2"
 }

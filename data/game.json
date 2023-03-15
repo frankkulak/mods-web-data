@@ -1,12 +1,12 @@
 {
   "$schema": "../schemas/game.schema.json",
-  "date": "Jan 31",
-  "version": "1.95.207",
-  "currentAlertIndex": 3,
+  "date": "Mar 14",
+  "version": "1.96.365",
+  "currentAlertIndex": 4,
   "alerts": [
     {
-      "index": 3,
-      "text": "Critical features in Language Barriers are broken after the infants patch. Other mods appear to be fine, but need more thorough testing. Keep an eye on this website and my Twitter account to know when my mods are cleared and/or fixed."
+      "index": 4,
+      "text": "Language Barriers has been updated to v2.2.2 to fix a critical issue after the infants patch. Please update immediately. Other mods are still pending."
     }
   ]
 }
