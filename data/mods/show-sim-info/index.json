@@ -18,7 +18,7 @@
       "html": "changelog.html"
     }
   ],
-  "downloadWarning": "Even though this is a 'fixed' version of Itasan's mod, there are still some known issues. Please be aware that not all of the advertised features on Itasan's page will work entirely as expected. Please continue reporting these issues to me as they come up.",
+  "downloadWarning": "Even though this is a 'fixed' version of Itasan's mod, there are still some known issues. I will be releasing a patch soon to address new issues from the infants patch. Please continue reporting problems to me as they come up.",
   "downloads": [
     {
       "host": "Sim File Share",
