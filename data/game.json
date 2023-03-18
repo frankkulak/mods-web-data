@@ -2,7 +2,7 @@
   "$schema": "../schemas/game.schema.json",
   "date": "Mar 14",
   "version": "1.96.365",
-  "currentAlertIndex": 5,
+  "currentAlertIndex": 6,
   "alerts": [
     {
       "index": 5,
@@ -10,11 +10,11 @@
     },
     {
       "index": 5,
-      "text": "Show Sim Info is not broken, but does not work with infants (update coming soon)."
+      "text": "All other mods are fine."
     },
     {
-      "index": 5,
-      "text": "All other mods are fine."
+      "index": 6,
+      "text": "Show Sim Info has been updated to v3.8.4 to add compatibility with infants and some missing occult/species types."
     }
   ]
 }
