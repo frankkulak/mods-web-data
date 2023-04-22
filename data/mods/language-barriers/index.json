@@ -3,8 +3,8 @@
   "name": "Language Barriers",
   "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
-  "version": "2.2.3",
-  "lastUpdated": "March 25, 2023",
+  "version": "2.3",
+  "lastUpdated": "April 21, 2023",
   "featured": true,
   "stage": "public",
   "status": "working",
@@ -25,6 +25,7 @@
     "eps": [
       "Get to Work",
       "Get Together",
+      "Growing Together",
       "High School Years",
       "Island Living",
       "Snowy Escape"
@@ -228,6 +229,5 @@
       "platform": "YouTube",
       "href": "https://youtu.be/8AFVDafTUOI"
     }
-  ],
-  "downloadWarning": "The infant patch broke LB v2.2.1; please ensure you are using the latest version."
+  ]
 }
