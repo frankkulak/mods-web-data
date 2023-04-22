@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/game.schema.json",
-  "date": "Mar 14",
-  "version": "1.96.365",
+  "date": "April 18",
+  "version": "1.97.42",
   "currentAlertIndex": 6,
   "alerts": []
 }
