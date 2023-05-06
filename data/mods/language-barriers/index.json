@@ -3,8 +3,8 @@
   "name": "Language Barriers",
   "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
-  "version": "2.3.1",
-  "lastUpdated": "April 30, 2023",
+  "version": "2.3.2",
+  "lastUpdated": "May 6, 2023",
   "featured": true,
   "stage": "public",
   "status": "working",
@@ -178,6 +178,9 @@
       "translators": [
         {
           "name": "GreenOnionC"
+        },
+        {
+          "name": "WANZI"
         }
       ]
     },
@@ -187,6 +190,9 @@
       "translators": [
         {
           "name": "GreenOnionC"
+        },
+        {
+          "name": "WANZI"
         }
       ]
     },
