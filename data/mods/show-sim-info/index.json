@@ -3,8 +3,8 @@
   "name": "Show Sim Info",
   "tagline": "View internal sim data",
   "description": "View all of the internal data for particular sims with an interaction. Originally by Itasan on MTS.",
-  "version": "3.8.4",
-  "lastUpdated": "March 18, 2023",
+  "version": "3.8.5",
+  "lastUpdated": "May 23, 2023",
   "stage": "public",
   "status": "working",
   "hideTranslations": true,
@@ -18,7 +18,7 @@
       "html": "changelog.html"
     }
   ],
-  "downloadWarning": "If you have downloaded this mod from Mod The Sims, DELETE that version before installing this one.",
+  "downloadWarning": "If you have downloaded this mod from Mod The Sims, delete that version before installing this one. Note that using a cloud service (OneDrive, Google Drive, iCloud, etc.) to back up your Mods folder can cause files to stick around even after you think you've deleted them.",
   "downloads": [
     {
       "host": "Sim File Share",
