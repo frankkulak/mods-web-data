@@ -21,6 +21,20 @@
       ]
     },
     {
+      "title": "VS Code Extension",
+      "text": "Sims 4 Toolkit integrated with VS Code.",
+      "links": [
+        {
+          "label": "Website",
+          "href": "https://vscode.sims4toolkit.com/"
+        },
+        {
+          "label": "Marketplace",
+          "href": "https://marketplace.visualstudio.com/items?itemName=sims4toolkit.s4tk-vscode"
+        }
+      ]
+    },
+    {
       "title": "Online Sandbox",
       "text": "Write & run S4TK scripts in your browser.",
       "links": [
