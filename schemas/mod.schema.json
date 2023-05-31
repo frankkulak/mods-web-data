@@ -219,6 +219,10 @@
         }
       }
     },
+    "publicRelease": {
+      "description": "The date this mod goes public.",
+      "type": "string"
+    },
     "recommendedPacks": {
       "description": "Packs that enhance this mod's gameplay.",
       "$ref": "#/definitions/packs"

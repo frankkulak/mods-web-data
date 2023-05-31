@@ -110,6 +110,7 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
       name: modData.name,
       seoTags: modData.seoTags,
       status: modData.status,
+      earlyAccess: modData.earlyAccess ?? false,
       tagline: modData.tagline,
       version: modData.version ?? "",
     };

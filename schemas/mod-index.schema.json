@@ -14,7 +14,8 @@
         "show-sim-info",
         "simway",
         "utter-chaos",
-        "bunpocalypse"
+        "bunpocalypse",
+        "festive-milestones"
       ]
     }
   },
@@ -65,6 +66,9 @@
         "properties": {
           "description": {
             "type": "string"
+          },
+          "earlyAccess": {
+            "type": "boolean"
           },
           "featured": {
             "type": "boolean"
