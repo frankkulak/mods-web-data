@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Halloween Holiday",
+  "tagline": "Adds Halloween to the Calendar",
+  "description": "Tired of manually adding Halloween to the calendar? This mod will make it appear by default, just like the other holidays.",
+  "version": "1.0 beta 1",
+  "lastUpdated": "June 7, 2023",
+  "stage": "beta",
+  "earlyAccess": "beta",
+  "publicRelease": "June 21, 2023",
+  "status": "working",
+  "seoTags": [
+    "halloween",
+    "holiday",
+    "calendar",
+    "seasons"
+  ],
+  "requiredPacks": {
+    "eps": [
+      "Seasons"
+    ]
+  },
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "translations": [
+    {
+      "code": "ENG_US",
+      "translators": [
+        {
+          "name": "Frankk"
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Patreon",
+      "href": "https://www.patreon.com/posts/84235940"
+    }
+  ]
+}
