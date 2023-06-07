@@ -21,6 +21,7 @@
       ]
     },
     {
+      "pinned": true,
       "title": "VS Code Extension",
       "text": "Sims 4 Toolkit integrated with VS Code.",
       "links": [
@@ -31,6 +32,10 @@
         {
           "label": "Marketplace",
           "href": "https://marketplace.visualstudio.com/items?itemName=sims4toolkit.s4tk-vscode"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/sims4toolkit/s4tk-vscode"
         }
       ]
     },

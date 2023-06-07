@@ -22,6 +22,12 @@
           "text": "Learn how to use the Sims 4 Toolkit library with guided tutorials.",
           "href": "https://sandbox.sims4toolkit.com/#/tutorials",
           "platform": "the S4TK Sandbox"
+        },
+        {
+          "title": "Learn the S4TK VS Code Extension",
+          "text": "Learn how to use the Sims 4 Toolkit extension for Visual Studio Code.",
+          "href": "https://vscode.sims4toolkit.com/#/learn",
+          "platform": "the S4TK VS Code Docs"
         }
       ]
     },
