@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
-  "name": "Festive Milestones",
+  "name": "Memorable Events",
   "tagline": "Milestones for events and holidays",
   "description": "Your sims should remember their special days. This mod adds milestones for events, festivals, and holidays from various packs.",
   "version": "1.0 alpha 1",
@@ -14,7 +14,8 @@
     "event",
     "holiday",
     "developmental",
-    "milestone"
+    "milestone",
+    "memories"
   ],
   "requiredPacks": {
     "eps": [
