@@ -5,9 +5,11 @@
       "title": "Gameplay",
       "modIds": [
         "buy-bits-and-pieces",
+        "festive-milestones",
         "followers-for-fame",
         "language-barriers",
-        "online-homework"
+        "online-homework",
+        "simway"
       ]
     },
     {
@@ -23,12 +25,6 @@
         "bad-translations",
         "bunpocalypse",
         "utter-chaos"
-      ]
-    },
-    {
-      "title": "WIP",
-      "modIds": [
-        "simway"
       ]
     }
   ]

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Festive Milestones",
+  "tagline": "Milestones for events and holidays",
+  "description": "Your sims should remember their special days. This mod adds milestones for events, festivals, and holidays from various packs.",
+  "version": "1.0 alpha 1",
+  "lastUpdated": "June 7, 2023",
+  "stage": "alpha",
+  "earlyAccess": "alpha",
+  "status": "working",
+  "seoTags": [
+    "festive",
+    "festival",
+    "event",
+    "holiday",
+    "developmental",
+    "milestone"
+  ],
+  "requiredPacks": {
+    "eps": [
+      "Growing Together"
+    ]
+  },
+  "recommendedPacks": {
+    "eps": [
+      "City Living",
+      "Island Living",
+      "Seasons",
+      "Snowy Escape"
+    ]
+  },
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "translations": [
+    {
+      "code": "ENG_US",
+      "translators": [
+        {
+          "name": "Frankk"
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Patreon",
+      "href": "https://www.patreon.com/posts/festive-alpha-1-84211007"
+    }
+  ],
+  "downloadWarning": "Alpha releases are incomplete snapshots of mods while they are being developed. Currently, only the Island Living features are complete. You must own both Growing Together AND Island Living to use v1.0 alpha 1."
+}

@@ -2,9 +2,10 @@
   "$schema": "../schemas/patreon.schema.json",
   "billingDisclaimers": [
     "Prices are listed in USD. You are billed the day of the month that you sign up. You can unsubscribe at any time.",
-    "More information about the benefits is available on Patreon. Please review this before signing up."
+    "More information about the benefits is available on Patreon. Please review this before signing up.",
+    "Patrons who have not received any benefits are eligible for a full refund at any time."
   ],
-  "earlyAccess": false,
+  "earlyAccess": true,
   "tiers": [
     {
       "name": "The Pancakes",
