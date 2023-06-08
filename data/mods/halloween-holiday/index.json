@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Halloween Holiday",
-  "tagline": "Adds Halloween to the Calendar",
+  "tagline": "Adds Halloween to the calendar",
   "description": "Tired of manually adding Halloween to the calendar? This mod will make it appear by default, just like the other holidays.",
   "version": "1.0 beta 2",
   "lastUpdated": "June 8, 2023",
