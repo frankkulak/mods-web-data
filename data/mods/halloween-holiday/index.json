@@ -3,8 +3,8 @@
   "name": "Halloween Holiday",
   "tagline": "Adds Halloween to the Calendar",
   "description": "Tired of manually adding Halloween to the calendar? This mod will make it appear by default, just like the other holidays.",
-  "version": "1.0 beta 1",
-  "lastUpdated": "June 7, 2023",
+  "version": "1.0 beta 2",
+  "lastUpdated": "June 8, 2023",
   "stage": "beta",
   "earlyAccess": "beta",
   "publicRelease": "June 14, 2023",
@@ -45,5 +45,6 @@
       "host": "Patreon",
       "href": "https://www.patreon.com/posts/84235940"
     }
-  ]
+  ],
+  "downloadWarning": "To rename the holiday, edit the contents of HolidayNameOverride.txt. If you like the name \"Halloween\", you can delete this file."
 }
