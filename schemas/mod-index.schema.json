@@ -97,6 +97,10 @@
           }
         }
       }
+    },
+    "redirects": {
+      "description": "Mapping of redirects from old mod pages to new ones.",
+      "type": "object"
     }
   }
 }

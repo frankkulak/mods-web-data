@@ -28,5 +28,8 @@
         "utter-chaos"
       ]
     }
-  ]
+  ],
+  "redirects": {
+    "halloween-holiday": "extra-holidays"
+  }
 }
