@@ -1,16 +1,19 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
-  "name": "Halloween Holiday",
-  "tagline": "Adds Halloween to the calendar",
-  "description": "Tired of manually adding Halloween to the calendar? This mod will make it appear by default, just like the other holidays.",
-  "version": "1.0 beta 2",
-  "lastUpdated": "June 8, 2023",
+  "name": "Extra Holidays",
+  "tagline": "Adds Spookyfest and Flower Day",
+  "description": "Tired of manually adding common holidays to the calendar? This mod will make some more of them appear by default.",
+  "version": "1.0 beta 3",
+  "lastUpdated": "June 12, 2023",
   "stage": "beta",
   "earlyAccess": "beta",
   "publicRelease": "June 14, 2023",
   "status": "working",
   "seoTags": [
     "halloween",
+    "spookyfest",
+    "easter",
+    "flower",
     "holiday",
     "calendar",
     "seasons"
@@ -46,5 +49,5 @@
       "href": "https://www.patreon.com/posts/84235940"
     }
   ],
-  "downloadWarning": "To rename the holiday, edit the contents of HolidayNameOverride.txt. If you like the name \"Halloween\", you can delete this file."
+  "downloadWarning": "You must install the script, but all packages are optional (only install the holidays that you want). To rename a holiday, you can edit the 'HolidayNames.cfg' file with a plain text editor, like Notepad or TextEdit."
 }
