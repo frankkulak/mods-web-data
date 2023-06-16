@@ -16,7 +16,7 @@
     {
       "title": "Utility",
       "modIds": [
-        "custom-holiday-fix",
+        "custom-holiday-utility",
         "pack-tests",
         "show-sim-info"
       ]

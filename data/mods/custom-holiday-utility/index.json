@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Custom Holiday Utility",
+  "tagline": "Makes modded holidays behave",
+  "description": "Enable modded holidays in existing saves, and get rid of that pesky exception notification caused by uninstalling them.",
+  "version": "1.0",
+  "lastUpdated": "June 16, 2023",
+  "stage": "public",
+  "status": "working",
+  "hideTranslations": true,
+  "pages": [
+    {
+      "title": "For Users",
+      "html": "users.html"
+    },
+    {
+      "title": "For Modders",
+      "html": "modders.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "requiredPacks": {
+    "eps": [
+      "Seasons"
+    ]
+  },
+  "documentation": [
+    {
+      "host": "Sim File Share",
+      "href": ""
+    }
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": ""
+    },
+    {
+      "host": "Google Drive",
+      "href": ""
+    }
+  ]
+}
