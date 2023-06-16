@@ -3,10 +3,10 @@
   "name": "Extra Holidays",
   "tagline": "Adds Spookyfest and Flower Day",
   "description": "Tired of manually adding common holidays to the calendar? This mod will make some more of them appear by default.",
-  "version": "1.0 beta 3",
-  "lastUpdated": "June 12, 2023",
-  "stage": "wip",
-  "status": "unreleased",
+  "version": "1.0",
+  "lastUpdated": "June 16, 2023",
+  "stage": "public",
+  "status": "working",
   "seoTags": [
     "halloween",
     "spookyfest",
@@ -31,7 +31,6 @@
       "html": "changelog.html"
     }
   ],
-  "hideTranslations": true,
   "translations": [
     {
       "code": "ENG_US",
@@ -41,5 +40,16 @@
         }
       ]
     }
-  ]
+  ],
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": ""
+    },
+    {
+      "host": "Google Drive",
+      "href": ""
+    }
+  ],
+  "downloadWarning": "This mod requires my <a class=\"text-gray-800 dark:text-yellow-800\" target=\"_blank\" href=\"#/mods/custom-holiday-utility\">Custom Holiday Utility</a> mod. You must install it as well, or this mod will not work."
 }
