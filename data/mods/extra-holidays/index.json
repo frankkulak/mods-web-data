@@ -1,10 +1,10 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Extra Holidays",
-  "tagline": "Adds Spookyfest and Flower Day",
+  "tagline": "Adds more default holidays",
   "description": "Tired of manually adding common holidays to the calendar? This mod will make some more of them appear by default.",
   "version": "1.0",
-  "lastUpdated": "June 16, 2023",
+  "lastUpdated": "June 18, 2023",
   "stage": "public",
   "status": "working",
   "seoTags": [
@@ -12,6 +12,11 @@
     "spookyfest",
     "easter",
     "flower",
+    "4th of july",
+    "fourth of july",
+    "independece",
+    "simdependence",
+    "day",
     "holiday",
     "calendar",
     "seasons"
@@ -51,5 +56,5 @@
       "href": ""
     }
   ],
-  "downloadWarning": "This mod requires my <a class=\"text-gray-800 dark:text-yellow-800\" target=\"_blank\" href=\"#/mods/custom-holiday-utility\">Custom Holiday Utility</a> mod. You must install it as well, or this mod will not work."
+  "downloadWarning": "This mod requires my <a class=\"text-gray-800 dark:text-yellow-800\" target=\"_blank\" href=\"#/mods/custom-holiday-utility\">Custom Holiday Utility</a> mod. You must install it as well, or none of these holidays will work. Each holiday is an standalone mod, so just install the ones you want."
 }

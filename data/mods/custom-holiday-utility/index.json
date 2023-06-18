@@ -4,7 +4,7 @@
   "tagline": "Makes modded holidays behave",
   "description": "Enable modded holidays in existing saves, and get rid of that pesky exception notification caused by uninstalling them.",
   "version": "1.0",
-  "lastUpdated": "June 16, 2023",
+  "lastUpdated": "June 18, 2023",
   "stage": "public",
   "status": "working",
   "hideTranslations": true,
