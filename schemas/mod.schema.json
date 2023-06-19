@@ -299,6 +299,10 @@
               "SWE_SE"
             ]
           },
+          "href": {
+            "description": "Link to mod, if it's not included in download.",
+            "type": "string"
+          },
           "translators": {
             "description": "List of people who contributed to this translation.",
             "type": "array",
