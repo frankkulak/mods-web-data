@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/mod.schema.json",
   "name": "Simway (MLM Mod)",
   "tagline": "Be your own girlboss",
-  "description": "How would you like to be your own boss and set your own hours? Join Simway for just §500, then sell products and recruit other sims to make a profit! This mod adds MLMs to the game.",
+  "description": "How would you like to be your own boss and set your own hours? Join one of three MLMs, peddle their products, throw selling parties, and recruit others to make a profit!",
   "stage": "wip",
   "status": "unreleased",
   "hideTranslations": true,
@@ -10,8 +10,13 @@
     "multi",
     "level",
     "marketing",
+    "network",
+    "sales",
+    "consultant",
     "pyramid",
-    "scheme"
+    "scheme",
+    "plumbonne",
+    "llamaware"
   ],
   "pages": [
     {
