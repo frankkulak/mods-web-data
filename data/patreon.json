@@ -3,9 +3,9 @@
   "billingDisclaimers": [
     "Prices are listed in USD. You are billed the day of the month that you sign up. You can unsubscribe at any time.",
     "More information about the benefits is available on Patreon. Please review this before signing up.",
-    "Patrons who have not received any benefits are eligible for a full refund at any time."
+    "Patrons who have not received any benefits within a billing cycle are eligible for refunds."
   ],
-  "earlyAccess": true,
+  "earlyAccess": false,
   "tiers": [
     {
       "name": "The Pancakes",
