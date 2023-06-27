@@ -3,11 +3,9 @@
   "name": "Festive Milestones",
   "tagline": "Milestones for events and holidays",
   "description": "Your sims should remember their special days. This mod adds milestones for events, festivals, and holidays from various packs.",
-  "version": "1.0 beta 3",
-  "lastUpdated": "June 25, 2023",
-  "stage": "beta",
-  "earlyAccess": "beta",
-  "publicRelease": "June 27, 2023",
+  "version": "1.0",
+  "lastUpdated": "June 27, 2023",
+  "stage": "public",
   "status": "working",
   "seoTags": [
     "festive",
@@ -49,12 +47,42 @@
           "name": "Frankk"
         }
       ]
+    },
+    {
+      "code": "RUS_RU",
+      "translators": [
+        {
+          "name": "Ciri"
+        }
+      ]
+    },
+    {
+      "code": "SPA_EA",
+      "outdated": true,
+      "translators": [
+        {
+          "name": "Juliet26"
+        }
+      ]
+    },
+    {
+      "code": "FRE_FR",
+      "href": "https://modsims4.fr/divers/mods-etapes-de-vie-pour-vos-sims/#frankk",
+      "translators": [
+        {
+          "name": "Kimikosoma"
+        }
+      ]
     }
   ],
   "downloads": [
     {
-      "host": "Patreon",
-      "href": "https://www.patreon.com/posts/84386385"
+      "host": "SimFileShare",
+      "href": "https://simfileshare.net/download/3980085/"
+    },
+    {
+      "host": "Google Drive",
+      "href": "https://drive.google.com/drive/folders/1tL7rotY72S3tyL44q9zXZSeowD7C9gvm?usp=drive_link"
     }
   ],
   "downloadWarning": "You must install the script, but all packages are optional. Only install packages for packs that you own and want in your game. Playing with packages for packs that you do not own can and will cause issues."
