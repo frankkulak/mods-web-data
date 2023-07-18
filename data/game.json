@@ -1,7 +1,12 @@
 {
   "$schema": "../schemas/game.schema.json",
-  "date": "April 18",
+  "date": "July 18",
   "version": "1.97.42",
-  "currentAlertIndex": 6,
-  "alerts": []
+  "currentAlertIndex": 7,
+  "alerts": [
+    {
+      "index": 7,
+      "text": "I have not yet tested my mods for the patch released on July 18, 2023. Use them at your own risk until I either clear or fix them. Keep an eye on my Discord, Twitter, and/or this website for updates."
+    }
+  ]
 }
