@@ -3,10 +3,5 @@
   "date": "July 18",
   "version": "1.97.42",
   "currentAlertIndex": 8,
-  "alerts": [
-    {
-      "index": 8,
-      "text": "[August 25, 2023] I'm currently on a hiatus due to ongoing health issues. I may be slow to test and update mods/tools after patches, and ALL Patreon benefits are suspended while I recover. Feel free to delete your pledge and/or request refunds for recent months. For more information and status updates, please check my public Patreon feed."
-    }
-  ]
+  "alerts": []
 }
