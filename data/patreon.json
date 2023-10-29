@@ -1,7 +1,6 @@
 {
   "$schema": "../schemas/patreon.schema.json",
   "billingDisclaimers": [
-    "⚠️ ⚠️ ⚠️ TEMPORARY NOTICE ⚠️ ⚠️ ⚠️: All benefits are suspended while I recover from ongoing health issues.",
     "Prices are listed in USD. You are billed the day of the month that you sign up. You can unsubscribe at any time.",
     "More information about the benefits is available on Patreon. Please review this before signing up.",
     "Patrons who have not received any benefits within a billing cycle are eligible for refunds."
