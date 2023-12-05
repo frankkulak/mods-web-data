@@ -2,11 +2,17 @@
   "$schema": "../schemas/game.schema.json",
   "date": "July 18",
   "version": "1.97.42",
-  "currentAlertIndex": 9,
+  "currentAlertIndex": 10,
   "alerts": [
     {
-      "index": 9,
-      "text": "I have not yet tested my mods for the For Rent expansion pack patch (December 5, 2023). You should wait until I either announce them as working or release updates. Keep an eye on this website, my Twitter, or my Discord server for updates."
+      "index": 10,
+      "persistant": true,
+      "text": "I am still working on testing my mods for the For Rent expansion pack patch (December 5, 2023). You should wait until I either announce them as working or release updates. Keep an eye on this website, my Twitter, or my Discord server for updates."
+    },
+    {
+      "index": 11,
+      "persistant": true,
+      "text": "Language Barriers v2.3.4 is confirmed broken with the patch. It will prevent children from aging up, and throw internal data out of sync. Avoid using it until an update is available."
     }
   ]
 }

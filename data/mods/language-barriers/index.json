@@ -7,7 +7,7 @@
   "lastUpdated": "August 4, 2023",
   "featured": true,
   "stage": "public",
-  "status": "untested",
+  "status": "broken",
   "seoTags": [
     "foreign",
     "culture",
@@ -235,5 +235,6 @@
       "platform": "YouTube",
       "href": "https://youtu.be/8AFVDafTUOI"
     }
-  ]
+  ],
+  "downloadWarning": "Language Barriers v2.3.4 is broken as of the game patch released on December 5, 2023. If you updated your game, avoid using Language Barriers until an update is available. It will prevent sims from aging up, and will throw internal data for toddlers out of sync."
 }
