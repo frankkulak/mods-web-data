@@ -2,6 +2,11 @@
   "$schema": "../schemas/game.schema.json",
   "date": "July 18",
   "version": "1.97.42",
-  "currentAlertIndex": 8,
-  "alerts": []
+  "currentAlertIndex": 9,
+  "alerts": [
+    {
+      "index": 9,
+      "text": "I have not yet tested my mods for the For Rent expansion pack patch (December 5, 2023). You should wait until I either announce them as working or release updates. Keep an eye on this website, my Twitter, or my Discord server for updates."
+    }
+  ]
 }
