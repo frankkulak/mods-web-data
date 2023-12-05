@@ -12,7 +12,7 @@
     {
       "index": 11,
       "persistant": true,
-      "text": "Language Barriers v2.3.4 is confirmed broken with the patch. It will prevent children from aging up, and throw internal data out of sync. Avoid using it until an update is available."
+      "text": "Language Barriers and Show Sim Info are both confirmed broken with the patch. Avoid using Language Barriers until an update is available, as it can prevent sims from aging up and throw internal data out of sync. Show Sim Info simply does not work, but won't harm your game."
     }
   ]
 }
