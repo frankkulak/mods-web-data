@@ -2,6 +2,11 @@
   "$schema": "../schemas/game.schema.json",
   "date": "July 18",
   "version": "1.97.42",
-  "currentAlertIndex": 8,
-  "alerts": []
+  "currentAlertIndex": 12,
+  "alerts": [
+    {
+      "index": 12,
+      "text": "Language Barriers and Show Sim Info require updates after the For Rent patch. Please ensure you are using the latest versions."
+    }
+  ]
 }
