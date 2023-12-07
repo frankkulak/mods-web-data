@@ -90,6 +90,7 @@
     },
     {
       "code": "FRE_FR",
+      "outdated": true,
       "translators": [
         {
           "name": "Syngo9"
@@ -156,6 +157,7 @@
     },
     {
       "code": "RUS_RU",
+      "outdated": true,
       "translators": [
         {
           "name": "Ciri"
@@ -167,6 +169,7 @@
     },
     {
       "code": "JPN_JP",
+      "outdated": true,
       "translators": [
         {
           "name": "Maru"
