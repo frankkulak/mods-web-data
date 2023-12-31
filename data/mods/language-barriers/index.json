@@ -65,13 +65,16 @@
     },
     {
       "code": "GER_DE",
-      "outdated": true,
+      "href": "https://www.simfileshare.net/download/4364352/",
       "translators": [
         {
           "name": "Leia"
         },
         {
           "name": "Possum"
+        },
+        {
+          "name": "Tox_Pack"
         }
       ]
     },
