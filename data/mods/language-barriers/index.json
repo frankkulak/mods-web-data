@@ -148,12 +148,15 @@
     },
     {
       "code": "POR_BR",
-      "outdated": true,
       "translators": [
         {
           "name": "Mariana Prokopowiski"
+        },
+        {
+          "name": "MarcosRyzen"
         }
-      ]
+      ],
+      "href": "http://www.simfileshare.net/download/4388115/"
     },
     {
       "code": "RUS_RU",
