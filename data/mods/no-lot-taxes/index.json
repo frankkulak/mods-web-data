@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "No Lot Taxes",
+  "tagline": "§0 property taxes",
+  "description": "No taxation without repre- actually, just no taxes. This mod gets rid of property taxes.",
+  "version": "1.0",
+  "lastUpdated": "February 3, 2024",
+  "stage": "public",
+  "status": "working",
+  "hasNoCustomStrings": true,
+  "seoTags": [
+    "tax",
+    "taxes",
+    "brackets",
+    "bills"
+  ],
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "downloadWarning": "It is not recommended to use this mod with any other mods that affect the billing system, such as SNB by SimRealist.",
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": "http://www.simfileshare.net/download/4447951/"
+    },
+    {
+      "host": "Google Drive",
+      "href": "https://drive.google.com/drive/folders/1GcMEiNTMe9Ro_lejHQ-8o0_z7-s7oJ0Y?usp=drive_link"
+    }
+  ]
+}
