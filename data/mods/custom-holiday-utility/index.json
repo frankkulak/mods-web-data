@@ -6,7 +6,7 @@
   "version": "1.0",
   "lastUpdated": "June 18, 2023",
   "stage": "public",
-  "status": "warnings",
+  "status": "working",
   "hideTranslations": true,
   "pages": [
     {
@@ -33,7 +33,6 @@
       "href": "https://drive.google.com/drive/folders/1xZTTfFxA18UMaW-MAu2z45eXo7pvQVrS?usp=sharing"
     }
   ],
-  "downloadWarning": "The January 16, 2024 patch broke CHU in a very bizarre way. It will prevent you from being able to hover over moodlets... I'm looking into it. Otherwise, it seems to work.",
   "downloads": [
     {
       "host": "Sim File Share",
