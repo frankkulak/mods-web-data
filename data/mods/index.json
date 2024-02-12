@@ -18,6 +18,7 @@
       "title": "Utility",
       "modIds": [
         "custom-holiday-utility",
+        "occult-switcher",
         "pack-tests",
         "show-sim-info"
       ]

@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/mod.schema.json",
+  "name": "Occult Switcher",
+  "tagline": "Quickly change occult types",
+  "description": "Change the occult type of any sim, played or not, during live mode (and keep your progression trees, too).",
+  "version": "1.0",
+  "lastUpdated": "February 12, 2024",
+  "stage": "public",
+  "status": "working",
+  "seoTags": [
+    "alien",
+    "mermaid",
+    "vampire",
+    "werewolf",
+    "spellcaster",
+    "witch",
+    "wizard"
+  ],
+  "translations": [
+    {
+      "code": "ENG_US",
+      "translators": [
+        {
+          "name": "Frankk"
+        }
+      ]
+    }
+  ],
+  "recommendedPacks": {
+    "eps": [
+      "Get to Work",
+      "Island Living"
+    ],
+    "gps": [
+      "Vampires",
+      "Realm of Magic",
+      "Werewolves"
+    ]
+  },
+  "pages": [
+    {
+      "title": "Details",
+      "html": "details.html"
+    },
+    {
+      "title": "Changelog",
+      "html": "changelog.html"
+    }
+  ],
+  "downloadWarning": "It is not recommended to use this mod with <a class=\"text-gray-800 dark:text-yellow-800\" href=\"https://modthesims.info/download.php?t=643617&cb=1655838110\" target=\"_blank\">Occult Hybrid Unlocker & Stabilizer</a>. Use one or the other.",
+  "downloads": [
+    {
+      "host": "Sim File Share",
+      "href": ""
+    },
+    {
+      "host": "Google Drive",
+      "href": ""
+    }
+  ]
+}
