@@ -19,7 +19,8 @@
       "modIds": [
         "custom-holiday-utility",
         "pack-tests",
-        "show-sim-info"
+        "show-sim-info",
+        "no-discovery-quests"
       ]
     },
     {
