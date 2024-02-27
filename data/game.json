@@ -1,7 +1,16 @@
 {
   "$schema": "../schemas/game.schema.json",
-  "date": "July 18",
-  "version": "1.97.42",
-  "currentAlertIndex": 12,
-  "alerts": []
+  "date": "Feb 27, 2024",
+  "version": "???",
+  "currentAlertIndex": 13,
+  "alerts": [
+    {
+      "index": 13,
+      "text": "I am currently traveling, and am unable to test my mods for compatibility with the February 27th patch. For the time being, use my mods at your own risk."
+    },
+    {
+      "index": 14,
+      "text": "It is possible that Language Barriers has issues as of February 27th, based on a tip I received from other modders - I have not confirmed this yet, though."
+    }
+  ]
 }
