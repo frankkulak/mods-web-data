@@ -6,12 +6,12 @@
   "alerts": [
     {
       "index": 13,
-      "text": "I am currently traveling, and am unable to test my mods for compatibility with the February 27th patch. For the time being, use my mods at your own risk.",
+      "text": "I am currently traveling, and am unable to fully test my mods for compatibility with the February 27th patch. For the time being, use my mods at your own risk.",
       "persistant": true
     },
     {
       "index": 14,
-      "text": "It is possible that Language Barriers has issues as of February 27th, based on a tip I received from other modders - I have not confirmed this yet, though.",
+      "text": "Language Barriers and Show Sim Info have some issues with the patch. I will try to fix these within the upcoming days, hang in there.",
       "persistant": true
     }
   ]
