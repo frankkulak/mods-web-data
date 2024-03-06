@@ -3,10 +3,10 @@
   "name": "Show Sim Info",
   "tagline": "View internal sim data",
   "description": "View all of the internal data for particular sims with an interaction. Originally by Itasan on MTS.",
-  "version": "3.8.8",
-  "lastUpdated": "December 5, 2023",
+  "version": "3.8.9",
+  "lastUpdated": "March 6, 2024",
   "stage": "public",
-  "status": "broken",
+  "status": "working",
   "hideTranslations": true,
   "pages": [
     {

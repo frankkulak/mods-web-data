@@ -2,17 +2,19 @@
   "$schema": "../schemas/game.schema.json",
   "date": "Feb 27, 2024",
   "version": "???",
-  "currentAlertIndex": 13,
+  "currentAlertIndex": 15,
   "alerts": [
     {
-      "index": 13,
-      "text": "I am currently traveling, and am unable to fully test my mods for compatibility with the February 27th patch. For the time being, use my mods at your own risk.",
-      "persistant": true
+      "index": 15,
+      "text": "Language Barriers and Show Sim Info broke after the patch on February 27th, 2024. You MUST update them to avoid exceptions."
     },
     {
-      "index": 14,
-      "text": "Language Barriers and Show Sim Info have some issues with the patch. I will try to fix these within the upcoming days, hang in there.",
-      "persistant": true
+      "index": 16,
+      "text": "Online Homework did not break, but was updated anyways for minor improvements."
+    },
+    {
+      "index": 17,
+      "text": "All other mods are compatible with the February 27th, 2024 patch."
     }
   ]
 }
