@@ -256,7 +256,6 @@
         "broken",
         "unreleased",
         "untested",
-        "warnings",
         "working"
       ]
     },
