@@ -1,20 +1,10 @@
 {
   "$schema": "../schemas/game.schema.json",
-  "date": "Feb 27, 2024",
-  "version": "???",
+  "versionInfo": {
+    "winVersion": "1.105.345.1020",
+    "macVersion": "1.105.345.1220",
+    "releaseDate": "Mar 6, 2024"
+  },
   "currentAlertIndex": 15,
-  "alerts": [
-    {
-      "index": 15,
-      "text": "Language Barriers and Show Sim Info broke after the patch on February 27th, 2024. You MUST update them to avoid exceptions."
-    },
-    {
-      "index": 16,
-      "text": "Online Homework did not break, but was updated anyways for minor improvements."
-    },
-    {
-      "index": 17,
-      "text": "All other mods are compatible with the February 27th, 2024 patch."
-    }
-  ]
+  "alerts": []
 }

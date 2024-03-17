@@ -3,8 +3,7 @@
   "type": "object",
   "required": [
     "currentAlertIndex",
-    "date",
-    "version"
+    "versionInfo"
   ],
   "properties": {
     "alerts": {
@@ -36,13 +35,28 @@
       "description": "The current alert index, for tracking purposes.",
       "type": "number"
     },
-    "date": {
-      "description": "Date of last update.",
-      "type": "string"
-    },
-    "version": {
-      "description": "Version number of last update.",
-      "type": "string"
+    "versionInfo": {
+      "type": "object",
+      "description": "Info about the most recent game update.",
+      "required": [
+        "winVersion",
+        "macVersion",
+        "releaseDate"
+      ],
+      "properties": {
+        "winVersion": {
+          "type": "string",
+          "description": "Most recent version of the game on Windows."
+        },
+        "macVersion": {
+          "type": "string",
+          "description": "Most recent version of the game on macOS."
+        },
+        "releaseDate": {
+          "type": "string",
+          "description": "Release date of most recent game version."
+        }
+      }
     }
   }
 }
