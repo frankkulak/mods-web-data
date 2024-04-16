@@ -5,14 +5,16 @@
   "main": "./scripts/build.cjs",
   "scripts": {
     "build": "node .",
-    "clean": "rm -rf ./build/**",
+    "clean:build": "rm -rf ./build/**",
+    "clean:deploy": "rm -rf ./deploy/**",
+    "deploy": "sh ./scripts/deploy.sh",
     "dev": "nodemon --watch data -e json,html ."
   },
-  "dependencies": {
-    "glob": "^8.1.0",
-    "html-minifier": "^4.0.0"
-  },
   "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.12.7",
+    "glob": "^10.3.12",
+    "html-minifier": "^4.0.0",
     "nodemon": "^2.0.20"
   }
 }
