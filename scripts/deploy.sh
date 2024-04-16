@@ -18,7 +18,7 @@ git add -A
 git commit -m 'Deploy.'
 
 # overwrite the prod branch
-git push -f git@github.com:frankkulak/mods-web-data.git HEAD:deploy
+git push -f git@github.com:frankkulak/mods-web-data.git HEAD:prod
 
 # navigate back
 cd -
