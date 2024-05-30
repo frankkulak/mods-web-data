@@ -1,9 +1,9 @@
 {
   "$schema": "../schemas/game.schema.json",
   "versionInfo": {
-    "winVersion": "1.106.148.1030",
-    "macVersion": "1.106.148.1230",
-    "releaseDate": "Apr 16, 2024"
+    "winVersion": "1.107.112.1030",
+    "macVersion": "1.107.112.1230",
+    "releaseDate": "May 28, 2024"
   },
   "currentAlertIndex": 15,
   "alerts": []
