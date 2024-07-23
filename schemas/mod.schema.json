@@ -148,6 +148,10 @@
     "tagline"
   ],
   "properties": {
+    "skipIndex": {
+      "description": "If true, then don't list this mod in the index.",
+      "type": "boolean"
+    },
     "description": {
       "description": "Brief description of this mod.",
       "type": "string"

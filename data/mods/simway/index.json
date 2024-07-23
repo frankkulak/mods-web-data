@@ -1,5 +1,6 @@
 {
   "$schema": "../../../schemas/mod.schema.json",
+  "skipIndex": true,
   "name": "Simway (MLM Mod)",
   "tagline": "Be your own girlboss",
   "description": "How would you like to be your own boss and set your own hours? Join one of three MLMs, peddle their products, throw selling parties, and recruit others to make a profit!",

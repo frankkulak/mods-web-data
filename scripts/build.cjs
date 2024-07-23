@@ -74,10 +74,11 @@ getSubdirs(MODS_DATA_DIR).forEach((modId) => {
   // load index JSON
   const indexPath = path.join(MODS_DATA_DIR, modId, "index.json");
   const indexJson = parseJsonFile(indexPath);
-  modDataMap.set(modId, indexJson);
+  if (!indexJson.skipIndex) modDataMap.set(modId, indexJson);
 
   // transform for prod
   delete indexJson.$schema;
+  delete indexJson.skipIndex;
   indexJson.pages.forEach((page) => {
     const htmlPath = path.join(MODS_DATA_DIR, modId, page.html);
     const htmlContent = fs.readFileSync(htmlPath).toString();
