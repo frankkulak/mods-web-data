@@ -3,8 +3,8 @@
   "name": "Language Barriers",
   "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
-  "version": "2.5",
-  "lastUpdated": "July 28, 2024",
+  "version": "2.5.1",
+  "lastUpdated": "October 31, 2024",
   "featured": true,
   "stage": "public",
   "status": "working",
@@ -23,13 +23,14 @@
   ],
   "recommendedPacks": {
     "eps": [
+      "For Rent",
       "Get to Work",
       "Get Together",
       "Growing Together",
       "High School Years",
       "Island Living",
-      "Snowy Escape",
-      "For Rent"
+      "Life & Death",
+      "Snowy Escape"
     ],
     "gps": [
       "Jungle Adventure",
