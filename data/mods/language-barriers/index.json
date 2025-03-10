@@ -3,8 +3,8 @@
   "name": "Language Barriers",
   "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
-  "version": "2.5.1",
-  "lastUpdated": "October 31, 2024",
+  "version": "2.6",
+  "lastUpdated": "March 10, 2025",
   "featured": true,
   "stage": "public",
   "status": "working",
@@ -30,7 +30,8 @@
       "High School Years",
       "Island Living",
       "Life & Death",
-      "Snowy Escape"
+      "Snowy Escape",
+      "Businesses & Hobbies"
     ],
     "gps": [
       "Jungle Adventure",
@@ -94,6 +95,7 @@
     },
     {
       "code": "FRE_FR",
+      "outdated": true,
       "translators": [
         {
           "name": "Syngo9"
@@ -134,6 +136,7 @@
     },
     {
       "code": "POL_PL",
+      "outdated": true,
       "translators": [
         {
           "name": "Osqar",
@@ -149,6 +152,7 @@
     },
     {
       "code": "POR_BR",
+      "href": "http://www.simfileshare.net/download/4388115/",
       "translators": [
         {
           "name": "Mariana Prokopowiski"
@@ -156,11 +160,11 @@
         {
           "name": "MarcosRyzen"
         }
-      ],
-      "href": "http://www.simfileshare.net/download/4388115/"
+      ]
     },
     {
       "code": "RUS_RU",
+      "outdated": true,
       "translators": [
         {
           "name": "Ciri"
