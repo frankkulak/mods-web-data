@@ -3,8 +3,8 @@
   "name": "Language Barriers",
   "tagline": "Learn foreign languages",
   "description": "A world where everyone speaks the same language is unrealistic. This mod adds new languages to the Sims universe, which introduces a unique challenge to the game.",
-  "version": "2.6",
-  "lastUpdated": "March 10, 2025",
+  "version": "2.7",
+  "lastUpdated": "March 11, 2025",
   "featured": true,
   "stage": "public",
   "status": "working",
@@ -19,7 +19,10 @@
     "toki sulani",
     "komorebigo",
     "tartosiano",
-    "sixami"
+    "sixami",
+    "tomaru",
+    "nordska",
+    "ravena"
   ],
   "recommendedPacks": {
     "eps": [
@@ -95,11 +98,8 @@
     },
     {
       "code": "FRE_FR",
-      "outdated": true,
+      "href": "https://www.curseforge.com/sims4/translations/mod-language-barriers-par-frankk-trad-fr",
       "translators": [
-        {
-          "name": "Syngo9"
-        },
         {
           "name": "Kimikosoma",
           "href": "https://modsims4.fr/"
@@ -136,15 +136,7 @@
     },
     {
       "code": "POL_PL",
-      "outdated": true,
       "translators": [
-        {
-          "name": "Osqar",
-          "href": "https://www.patreon.com/osqar"
-        },
-        {
-          "name": "lunan"
-        },
         {
           "name": "livi"
         }
@@ -154,9 +146,6 @@
       "code": "POR_BR",
       "href": "http://www.simfileshare.net/download/4388115/",
       "translators": [
-        {
-          "name": "Mariana Prokopowiski"
-        },
         {
           "name": "MarcosRyzen"
         }
@@ -185,11 +174,7 @@
     },
     {
       "code": "CHS_CN",
-      "outdated": true,
       "translators": [
-        {
-          "name": "GreenOnionC"
-        },
         {
           "name": "WANZI"
         }
@@ -197,11 +182,7 @@
     },
     {
       "code": "CHT_CN",
-      "outdated": true,
       "translators": [
-        {
-          "name": "GreenOnionC"
-        },
         {
           "name": "WANZI"
         }
@@ -245,6 +226,12 @@
       "creator": "JC Sims",
       "platform": "YouTube",
       "href": "https://youtu.be/8AFVDafTUOI"
+    },
+    {
+      "name": "🌟 Mod Sims 4 en français : Langues étrangères, relations internationales + 5 idées de Gameplay 🌎",
+      "creator": "Kimikosoma",
+      "platform": "YouTube",
+      "href": "https://www.youtube.com/watch?v=kp4VCkDucqE"
     }
   ]
 }
