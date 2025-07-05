@@ -5,12 +5,12 @@
     "macVersion": "1.113.288.1220",
     "releaseDate": "July 1, 2025"
   },
-  "currentAlertIndex": 24,
+  "currentAlertIndex": 25,
   "alerts": [
     {
-      "index": 24,
-      "text": "Language Barriers, Festive Milestones, and Custom Holiday Utility (CHU) broke after the July 1st patch. All other mods are still working. Please note that due to Extra Holidays' reliance on CHU, it may appear to be broken as well until CHU is fixed. Updates for affected mods are not yet available. Keep an eye on my website, Discord server, Patreon, or Bluesky for updates coming soon.",
-      "persistant": true
+      "index": 25,
+      "text": "Language Barriers, Festive Milestones, and Custom Holiday Utility (CHU) have all been updated to fix compatibility issues with the July 1st patch. All other mods are working as-is. Note that if you use Extra Holidays, or any other mod that requires CHU, you must update CHU.",
+      "persistant": false
     }
   ]
 }
