@@ -1,1 +1,1 @@
-{"versionInfo":{"winVersion":"1.117.221.1020","macVersion":"1.117.221.1220","releaseDate":"August 19, 2025"},"currentAlertIndex":25,"alerts":[]}
+{"versionInfo":{"winVersion":"1.117.244.1020","macVersion":"1.117.244.1220","releaseDate":"September 4, 2025"},"currentAlertIndex":26,"alerts":[{"index":26,"text":"Show Sim Info broke with the August 19, 2025 patch, causing the game to get stuck on the loading screen. This is now fixed in v3.8.10. All other mods are working as-is."}]}
