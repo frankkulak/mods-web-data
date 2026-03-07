@@ -1,26 +1,26 @@
 {
   "$schema": "../schemas/game.schema.json",
   "versionInfo": {
-    "winVersion": "1.117.244.1020",
-    "macVersion": "1.117.244.1220",
-    "releaseDate": "December 2, 2025"
+    "winVersion": "1.121.372.1020",
+    "macVersion": "1.121.372.1220",
+    "releaseDate": "February 19, 2026"
   },
-  "currentAlertIndex": 27,
+  "currentAlertIndex": 28,
   "alerts": [
     {
-      "index": 27,
-      "text": "Unfortunately, I have not had much time or interest to work on TS4-related projects lately. As such, my mods have not been tested since September 2025, so use them at your own risk. Please report any issues you encounter with my mods on Discord.",
-      "persistant": true
+      "index": 28,
+      "text": "Language Barriers did not break after any recent patches, but received an update anyways to allow for customization of newer worlds: Innisgreen, Gibbi Point, and Ondarion.",
+      "persistant": false
     },
     {
-      "index": 27,
-      "text": "As of December 31, 2025, no known game-breaking issues have been reported for any of my mods. This is NOT a guarantee that they work 100% as expected.",
-      "persistant": true
+      "index": 28,
+      "text": "Show Sim Info and Festive Milestones have minor, non-game breaking issues, but are otherwise functional and safe to use. View their pages for more information, and keep an eye on my website, Discord, and Bluesky for updates.",
+      "persistant": false
     },
     {
-      "index": 27,
-      "text": "Keep an eye on my website, Discord, and Bluesky for future announcements.",
-      "persistant": true
+      "index": 28,
+      "text": "The rest of my mods are confirmed to be compatible with the most recent patch (February 19, 2026).",
+      "persistant": false
     }
   ]
 }
